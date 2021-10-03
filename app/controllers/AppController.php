@@ -2,7 +2,9 @@
 
 namespace app\controllers;
 
-class AppController
+use shop\base\Controller;
+
+class AppController extends Controller
 {
 
 }

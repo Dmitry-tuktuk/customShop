@@ -2,9 +2,14 @@
 
 namespace app\controllers;
 
-class MainController
+
+class MainController extends AppController
 {
+
     public function indexAction(){
-        echo __METHOD__;
+        //debug($this->route);
+        //echo __METHOD__;
+        //$this->set();
+        //$this->setMeta('title', 'desc', 'keywords');
     }
 }

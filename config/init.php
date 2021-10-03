@@ -7,7 +7,7 @@ const CORE = ROOT . '/vendor/shop/core';
 const LIBS = ROOT . '/vendor/shop/core/libs';
 const CACHE = ROOT . '/tmp/cache';
 const CONFIG = ROOT . '/config';
-const LAYOUT = ROOT . '/default';
+const LAYOUT = 'default';
 
 $app_path = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}";
 $app_path = preg_replace("#[^/]+$#", '', $app_path);
