@@ -164,3 +164,15 @@
 ===============-
 [2021-10-03 10:44:11] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 38 
 ===============-
+[2021-10-03 16:05:52] Текст ошибки: Class 'app\controllers\Controller' not found | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\MainController.php | Строка: 5 
+===============-
+[2021-10-03 16:42:39] Текст ошибки: Метод app\controllers\PageController::indexAction не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-03 16:55:20] Текст ошибки: Too few arguments to function shop\base\View::__construct(), 0 passed in D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php on line 29 and exactly 4 expected | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 11 
+===============-
+[2021-10-03 16:59:46] Текст ошибки: Too few arguments to function shop\base\View::__construct(), 0 passed in D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php on line 24 and exactly 4 expected | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 11 
+===============-
+[2021-10-03 17:07:18] Текст ошибки: Не найден шаблон default | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 42 
+===============-
+[2021-10-03 17:08:31] Текст ошибки: Не найден шаблон default | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 42 
+===============-
