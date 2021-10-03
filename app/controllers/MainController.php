@@ -3,13 +3,19 @@
 namespace app\controllers;
 
 
+use shop\App;
+
 class MainController extends AppController
 {
 
     public function indexAction(){
-        //debug($this->route);
-        //echo __METHOD__;
-        //$this->set();
-        //$this->setMeta('title', 'desc', 'keywords');
+
+        $this->setMeta(App::$app->getProperty('shop_name'), 'описание', 'ключи');
+
+        $name = 'Test';
+        $age = 'Test23';
+        $params = ['name', 'email', 'password'];
+
+        $this->set(compact('name', 'age', 'params'));
     }
 }

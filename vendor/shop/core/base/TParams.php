@@ -11,5 +11,5 @@ trait TParams
     public $prefix;
     public $layout;
     public $data = [];
-    public $meta = [];
+    public $meta = ['title' => '', 'desc' => '', 'keywords' => ''];
 }
