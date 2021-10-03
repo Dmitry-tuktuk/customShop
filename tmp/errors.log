@@ -144,3 +144,23 @@
 ===============-
 [2021-10-02 20:46:37] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\public\index.php | Строка: 8 
 ===============-
+[2021-10-03 10:09:02] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 30 
+===============-
+[2021-10-03 10:10:04] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 30 
+===============-
+[2021-10-03 10:10:15] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 30 
+===============-
+[2021-10-03 10:36:52] Текст ошибки: Контроллер app\controllers\CategoryNewController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 33 
+===============-
+[2021-10-03 10:37:08] Текст ошибки: Контроллер app\controllers\CategoryNewController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 33 
+===============-
+[2021-10-03 10:38:09] Текст ошибки: Контроллер app\controllers\CategoryNewController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 33 
+===============-
+[2021-10-03 10:38:10] Текст ошибки: Контроллер app\controllers\CategoryNewController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 33 
+===============-
+[2021-10-03 10:40:41] Текст ошибки: Контроллер app\controllers\MainController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 38 
+===============-
+[2021-10-03 10:42:00] Текст ошибки: Метод app\controllers\MainController::indexAction не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 35 
+===============-
+[2021-10-03 10:44:11] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 38 
+===============-
