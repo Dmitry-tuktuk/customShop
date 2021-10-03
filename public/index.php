@@ -6,5 +6,4 @@ require_once CONFIG . '/routes.php';
 
 new \shop\App();
 
-debug(\shop\Router::getRoutes());
 
