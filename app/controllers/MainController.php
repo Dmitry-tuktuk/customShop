@@ -2,9 +2,20 @@
 
 namespace app\controllers;
 
-class MainController
+
+use shop\App;
+
+class MainController extends AppController
 {
+
     public function indexAction(){
-        echo __METHOD__;
+
+        $this->setMeta(App::$app->getProperty('shop_name'), 'описание', 'ключи');
+
+        $name = 'Test';
+        $age = 'Test23';
+        $params = ['name', 'email', 'password'];
+
+        $this->set(compact('name', 'age', 'params'));
     }
 }
