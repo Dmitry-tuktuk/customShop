@@ -41,8 +41,4 @@ class ErrorHandler
         }
         die;
     }
-
-
-
-
 }
