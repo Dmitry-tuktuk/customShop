@@ -176,3 +176,9 @@
 ===============-
 [2021-10-03 17:08:31] Текст ошибки: Не найден шаблон default | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 42 
 ===============-
+[2021-10-04 10:51:13] Текст ошибки: Метод app\controllers\PageController::viewAction не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 37 
+===============-
+[2021-10-04 10:51:39] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 43 
+===============-
+[2021-10-04 10:51:47] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 43 
+===============-
