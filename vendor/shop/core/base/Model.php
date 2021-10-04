@@ -2,14 +2,17 @@
 
 namespace shop\base;
 
-abstract class Model
+use shop\Db;
+
+abstract class Model extends \RedBeanPHP\SimpleModel
 {
     public $attributes = [];
     public $errors = [];
     public $rules = [];
 
-    protected function __construct()
+    public function __construct()
     {
+        DB::instance();
 
     }
 

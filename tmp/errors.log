@@ -182,3 +182,31 @@
 ===============-
 [2021-10-04 10:51:47] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 43 
 ===============-
+[2021-10-04 11:56:34] Текст ошибки: Call to protected shop\base\Model::__construct() from context 'app\controllers\AppController' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 13 
+===============-
+[2021-10-04 11:56:45] Текст ошибки: Class 'app\controllers\AppModel' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 12 
+===============-
+[2021-10-04 11:56:50] Текст ошибки: Call to protected shop\base\Model::__construct() from context 'app\controllers\AppController' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 13 
+===============-
+[2021-10-04 11:58:44] Текст ошибки: Call to protected shop\base\Model::__construct() from context 'app\controllers\AppController' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 13 
+===============-
+[2021-10-04 11:59:42] Текст ошибки: Call to protected shop\base\Model::__construct() from context 'app\controllers\AppController' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 13 
+===============-
+[2021-10-04 12:02:17] Текст ошибки: Call to protected shop\base\Model::__construct() from context 'app\controllers\AppController' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 13 
+===============-
+[2021-10-04 12:09:48] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Db.php | Строка: 20 
+===============-
+[2021-10-04 12:13:04] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 13 
+===============-
+[2021-10-04 12:13:19] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 14 
+===============-
+[2021-10-04 12:13:36] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 14 
+===============-
+[2021-10-04 12:13:45] Текст ошибки: Class 'R1' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 12 
+===============-
+[2021-10-04 12:14:13] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 12 
+===============-
+[2021-10-04 12:14:32] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 12 
+===============-
+[2021-10-04 12:27:25] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\layouts\default.php | Строка: 19 
+===============-
