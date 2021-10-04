@@ -210,3 +210,7 @@
 ===============-
 [2021-10-04 12:27:25] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\layouts\default.php | Строка: 19 
 ===============-
+[2021-10-04 16:10:12] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'customshop.loc.test123' doesn't exist | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+===============-
+[2021-10-04 16:29:55] Текст ошибки: syntax error, unexpected ')', expecting variable (T_VARIABLE) | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Cache.php | Строка: 23 
+===============-
