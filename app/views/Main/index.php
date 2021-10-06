@@ -86,39 +86,42 @@
 <!-- Hero/Intro Slider End -->
 
 <!-- Banner Area Start -->
+
+<?php if($categories) : ?>
 <div class="banner-area pt-100px pb-100px">
     <div class="container">
         <div class="row">
-            <div class="single-col">
+            <div class="single-col ">
                 <a href="shop-left-sidebar.html" class="single-banner">
-                    <img src="public/assets/images/banner/1.jpg" alt="">
+                    <img src="public/assets/images/banner/<?=$categories[1]->img ?>" alt="">
                     <div class="item-disc">
-                        <span class="item-title">Women</span>
-                        <span class="item-amount">16 items</span>
+                        <span class="item-title"><?=$categories[1]->title ?></span>
+                        <span class="item-amount"><?=$categories[1]->description ?></span>
                     </div>
                 </a>
             </div>
             <div class="single-col center-col">
                 <div class="single-banner">
-                    <img src="public/assets/images/banner/2.jpg" alt="">
+                    <img src="public/assets/images/banner/bestsellers.webp" alt="">
                     <div class="item-disc">
                         <h2 class="title">#bestsellers</h2>
                         <a href="shop-left-sidebar.html" class="shop-link">Shop Now</a>
                     </div>
                 </div>
             </div>
-            <div class="single-col">
+            <div class="single-col ">
                 <a href="shop-left-sidebar.html" class="single-banner">
-                    <img src="public/assets/images/banner/3.jpg" alt="">
+                    <img src="public/assets/images/banner/<?=$categories[2]->img ?>" alt="">
                     <div class="item-disc">
-                        <span class="item-title">Nomen</span>
-                        <span class="item-amount">16 items</span>
+                        <span class="item-title"><?=$categories[2]->title ?></span>
+                        <span class="item-amount"><?=$categories[2]->description ?></span>
                     </div>
                 </a>
             </div>
         </div>
     </div>
 </div>
+<?php endif ?>
 <!-- Banner Area End -->
 
 <!-- Feature Area Srart -->
@@ -1747,7 +1750,7 @@
                     <a href="#"><img class=" img-fluid" src="public/assets/images/brand-logo/4.png" alt="" /></a>
                 </div>
                 <div class="swiper-slide brand-slider-item text-center">
-                    <a href="#"><img class=" img-fluid" src="public/assets/images/brand-logo/5.png" alt="" /></a>
+                    <a href="#"><img class=" img-fluid" src="" alt="" /></a>
                 </div>
             </div>
         </div>

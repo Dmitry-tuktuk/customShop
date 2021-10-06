@@ -4,3 +4,25 @@
 ===============-
 [2021-10-06 11:18:49] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop.loc/app/views/Main/index.php | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\base\View.php | Строка: 40 
 ===============-
+[2021-10-06 13:18:07] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'customshop.loc.brands' doesn't exist | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+===============-
+[2021-10-06 13:22:39] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2  -- keep-cache' at line 1 | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+===============-
+[2021-10-06 13:32:34] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1761 
+===============-
+[2021-10-06 13:37:10] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1743 
+===============-
+[2021-10-06 13:37:23] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1743 
+===============-
+[2021-10-06 13:37:29] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1743 
+===============-
+[2021-10-06 13:37:31] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1743 
+===============-
+[2021-10-06 13:37:37] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1743 
+===============-
+[2021-10-06 13:37:54] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1743 
+===============-
+[2021-10-06 13:51:49] Текст ошибки: syntax error, unexpected 'endif' (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 119 
+===============-
+[2021-10-06 13:54:27] Текст ошибки: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 119 
+===============-
