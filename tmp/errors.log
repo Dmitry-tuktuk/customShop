@@ -1,2 +1,6 @@
 [2021-10-05 10:52:38] Текст ошибки: Контроллер app\controllers\admin\MainController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 40 
 ===============-
+[2021-10-06 11:00:45] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 43 
+===============-
+[2021-10-06 11:18:49] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop.loc/app/views/Main/index.php | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\base\View.php | Строка: 40 
+===============-
