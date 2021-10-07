@@ -26,3 +26,35 @@
 ===============-
 [2021-10-06 13:54:27] Текст ошибки: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 119 
 ===============-
+[2021-10-06 15:37:23] Текст ошибки: syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 22 
+===============-
+[2021-10-06 15:37:28] Текст ошибки: syntax error, unexpected ')' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 22 
+===============-
+[2021-10-06 15:39:35] Текст ошибки: syntax error, unexpected 'echo' (T_ECHO) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 25 
+===============-
+[2021-10-06 15:44:45] Текст ошибки: syntax error, unexpected ';', expecting ')' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 23 
+===============-
+[2021-10-06 16:09:58] Текст ошибки: syntax error, unexpected 'echo' (T_ECHO) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 27 
+===============-
+[2021-10-06 16:13:56] Текст ошибки: syntax error, unexpected ')', expecting ';' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 23 
+===============-
+[2021-10-07 09:54:44] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 43 
+===============-
+[2021-10-07 10:41:31] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 43 
+===============-
+[2021-10-07 10:44:09] Текст ошибки: syntax error, unexpected '?>' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1232 
+===============-
+[2021-10-07 10:44:11] Текст ошибки: syntax error, unexpected '?>' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1232 
+===============-
+[2021-10-07 10:44:29] Текст ошибки: syntax error, unexpected '?>' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1232 
+===============-
+[2021-10-07 10:53:35] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 43 
+===============-
+[2021-10-07 10:58:14] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 43 
+===============-
+[2021-10-07 11:23:22] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 617 
+===============-
+[2021-10-07 11:23:38] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 617 
+===============-
+[2021-10-07 11:23:40] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 617 
+===============-
