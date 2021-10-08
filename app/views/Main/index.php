@@ -206,6 +206,7 @@
                 <div class="tab-content top-borber">
                     <!-- 1st tab start -->
                     <?php if($products): ?>
+                    <?php $curr = \shop\App::$app->getProperty('currency');?>
                     <div class="tab-pane fade show active" id="tab-product-all">
                         <div class="row">
                             <?php foreach ($products as $product): ?>
@@ -253,9 +254,9 @@
                                             </span>
                                         <h5 class="title"><a href="/product/<?= $product->alias?>"><?=$product->title ?></a></h5>
                                         <span class="price">
-                                    <span class="new">$ <?=$product->price ?></span>
+                                    <span class="new"><?= $curr['symbol_left']?><?= round($product->price * $curr['value']) ?><?= $curr['symbol_right']?></span>
                                     <?php if($product->old_price):?>
-                                        <span class="old">$ <?=$product->old_price ?></span>
+                                        <span class="old"><?= $curr['symbol_left']?><?= round($product->old_price * $curr['value']) ?><?= $curr['symbol_right']?></span>
                                     <?php endif ?>
                             </span>
                                     </div>
@@ -307,7 +308,7 @@
                                             </span>
                                         <h5 class="title"><a href="/product/<?= $productNew->alias?>"><?=$productNew->title ?></a></h5>
                                         <span class="price">
-                                                <span class="new">$<?= $productNew->price ?></span>
+                                                <span class="new"><?= $curr['symbol_left']?><?= round($productNew->price * $curr['value']) ?> <?= $curr['symbol_right']?></span>
                                             </span>
                                     </div>
                                 </div>
@@ -358,7 +359,7 @@
                                             </span>
                                         <h5 class="title"><a href="/product/<?= $productBestseller->alias?>"><?=$productBestseller->title ?></a></h5>
                                         <span class="price">
-                                            <span class="new">$ <?=$productBestseller->price ?></span>
+                                            <span class="new"><?= $curr['symbol_left']?><?=round($productBestseller->price * $curr['value']) ?><?= $curr['symbol_right']?></span>
                                         </span>
                                     </div>
                                 </div>
@@ -411,9 +412,9 @@
                                             </span>
                                         <h5 class="title"><a href="/product/<?= $productSale->alias?>"><?=$productSale->title ?></a></h5>
                                         <span class="price">
-                                                <span class="new">$ <?=$productSale->price ?></span>
+                                                <span class="new"><?= $curr['symbol_left']?><?= round($productSale->price * $curr['value']) ?><?= $curr['symbol_right']?></span>
                                                 <?php if($productSale->old_price):?>
-                                                <span class="old">$ <?=$productSale->old_price ?></span>
+                                                    <span class="old"><?= $curr['symbol_left']?><?= round($productSale->old_price * $curr['value']) ?><?= $curr['symbol_right']?></span>
                                                 <?php endif ?>
                                             </span>
                                     </div>
