@@ -3,11 +3,12 @@
 namespace app\widgets\currency;
 
 use RedBeanPHP\R;
+use shop\App;
 
 class Currency {
 
     protected $tpl;
-    protected $currecies;
+    protected $currencies;
     protected $currency;
 
     public function __construct() {
@@ -16,9 +17,9 @@ class Currency {
     }
 
     protected function run() {
-/*        $this->getCurrencies();
-        $this->getCurrency();*/
-        $this->getHtml();
+        $this->currencies = App::$app->getProperty('currencies');
+        $this->currency = App::$app->getProperty('currency');
+        echo $this->getHtml();
     }
 
     public static function getCurrencies() {
@@ -38,7 +39,9 @@ class Currency {
         return $currency;
     }
 
-    public static function getHtml() {
-
+    protected function getHtml() {
+        ob_start();
+        require_once $this->tpl;
+        return ob_get_clean();
     }
 }
