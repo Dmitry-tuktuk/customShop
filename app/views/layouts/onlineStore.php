@@ -146,11 +146,13 @@
                 <!-- Header Action Start -->
                 <div class="col col-lg-auto align-self-center pl-0">
                     <div class="header-actions">
-<!--                            <select class="title">-->
-<!--                                <option>Dollar</option>-->
-<!--                                <option >Euro</option>-->
-<!--                                <option>UAH</option>-->
-<!--                            </select>-->
+                        <div class="dropdown position-static">
+                            <select>
+                                <option>Dollar</option>
+                                <option >Euro</option>
+                                <option>UAH</option>
+                            </select>
+                        </div>
                         <a href="login.html" class="header-action-btn login-btn" data-bs-toggle="modal"
                            data-bs-target="#loginActive">Sign In</a>
                         <!-- Single Wedge Start -->

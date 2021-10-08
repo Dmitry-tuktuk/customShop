@@ -5,24 +5,19 @@ namespace shop;
 use http\Exception;
 use \RedBeanPHP\R as R;
 
-class Db
-{
+class Db {
 
     use TSingletone;
 
-    public function __construct()
-    {
+    public function __construct() {
         $db = require CONFIG . '/config_DB.php';
-
         R::setup($db['dsn'], $db['user'], $db['password']);
-
-        if(!R::testConnection()){
+        R::freeze(true);
+        if(!R::testConnection()) {
             throw new \Exception('Нет соединения с бд', 500);
         }
-        R::freeze(true);
-        if (DEBUG){
+        if (DEBUG) {
             R::debug(true, 1);
         }
     }
-
 }

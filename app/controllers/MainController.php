@@ -6,8 +6,7 @@ use RedBeanPHP\R;
 use shop\App;
 use shop\Cache;
 
-class MainController extends AppController
-{
+class MainController extends AppController {
 
     public function indexAction(){
 
@@ -23,16 +22,8 @@ class MainController extends AppController
         $productsSale = R::findAll('product', "label_id = '2' AND status = '1' LIMIT 8");
         $productsNew = R::findAll('product', "label_id = '3' AND status = '1' LIMIT 8");
 
-        //Sale formula
-        foreach ($productsSale as $productSale){
-            $productSale =
-            $sale = $productSale->price / ($productSale->old_price - $productSale->price);
-        }
-
-
-
         /*Передача данных в вид*/
-        $this->set(compact('categories','products', 'productsSale', 'productsBestseller', 'productsNew', 'sale'));
+        $this->set(compact('categories','products', 'productsSale', 'productsBestseller', 'productsNew'));
 
     }
 }

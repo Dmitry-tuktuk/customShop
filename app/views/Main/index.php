@@ -105,7 +105,7 @@
                     <img src="public/assets/images/banner/bestsellers.webp" alt="">
                     <div class="item-disc">
                         <h2 class="title">#bestsellers</h2>
-                        <a href="shop-left-sidebar.html" class="shop-link">Shop Now</a>
+                        <a href="/products" class="shop-link">Shop Now</a>
                     </div>
                 </div>
             </div>
@@ -626,7 +626,7 @@
                     <a href="#"><img class=" img-fluid" src="public/assets/images/brand-logo/4.png" alt="" /></a>
                 </div>
                 <div class="swiper-slide brand-slider-item text-center">
-                    <a href="#"><img class=" img-fluid" src="" alt="" /></a>
+                    <a href="#"><img class=" img-fluid" src="public/assets/images/brand-logo/5.png" alt="" /></a>
                 </div>
             </div>
         </div>

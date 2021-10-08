@@ -2,8 +2,8 @@
 
 namespace shop\base;
 
-trait TParams
-{
+trait TParams {
+
     public $route;
     public $controller;
     public $model;
@@ -12,4 +12,5 @@ trait TParams
     public $layout;
     public $data = [];
     public $meta = ['title' => '', 'desc' => '', 'keywords' => ''];
+
 }

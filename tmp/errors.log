@@ -58,3 +58,7 @@
 ===============-
 [2021-10-07 11:23:40] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 617 
 ===============-
+[2021-10-08 10:30:32] Текст ошибки: Class 'app\controllers\Currency' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 13 
+===============-
+[2021-10-08 10:30:42] Текст ошибки: Call to undefined method app\widgets\currency\Currency::getCurrensies() | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 14 
+===============-
