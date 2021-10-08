@@ -58,3 +58,79 @@
 ===============-
 [2021-10-07 11:23:40] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 617 
 ===============-
+[2021-10-08 10:30:32] Текст ошибки: Class 'app\controllers\Currency' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 13 
+===============-
+[2021-10-08 10:30:42] Текст ошибки: Call to undefined method app\widgets\currency\Currency::getCurrensies() | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 14 
+===============-
+[2021-10-08 12:42:24] Текст ошибки: Using $this when not in object context | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\widgets\currency\Currency.php | Строка: 44 
+===============-
+[2021-10-08 12:45:08] Текст ошибки: Using $this when not in object context | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\widgets\currency\Currency.php | Строка: 45 
+===============-
+[2021-10-08 12:46:14] Текст ошибки: Call to protected method app\widgets\currency\Currency::getHtml() from context 'shop\base\View' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\layouts\onlineStore.php | Строка: 150 
+===============-
+[2021-10-08 12:46:48] Текст ошибки: Object of class app\widgets\currency\Currency could not be converted to string | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\layouts\onlineStore.php | Строка: 150 
+===============-
+[2021-10-08 12:46:59] Текст ошибки: Object of class app\widgets\currency\Currency could not be converted to string | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\layouts\onlineStore.php | Строка: 150 
+===============-
+[2021-10-08 12:48:54] Текст ошибки: Object of class app\widgets\currency\Currency could not be converted to string | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\layouts\onlineStore.php | Строка: 150 
+===============-
+[2021-10-08 12:49:07] Текст ошибки: Object of class app\widgets\currency\Currency could not be converted to string | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\layouts\onlineStore.php | Строка: 150 
+===============-
+[2021-10-08 13:12:00] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 31 
+===============-
+[2021-10-08 13:14:09] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 31 
+===============-
+[2021-10-08 13:14:19] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 31 
+===============-
+[2021-10-08 13:14:25] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 31 
+===============-
+[2021-10-08 13:14:34] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 31 
+===============-
+[2021-10-08 13:14:42] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 31 
+===============-
+[2021-10-08 13:14:48] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 31 
+===============-
+[2021-10-08 13:25:54] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php | Строка: 12 
+===============-
+[2021-10-08 13:26:03] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php | Строка: 12 
+===============-
+[2021-10-08 13:26:51] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php | Строка: 12 
+===============-
+[2021-10-08 13:26:56] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php | Строка: 12 
+===============-
+[2021-10-08 13:28:25] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php | Строка: 14 
+===============-
+[2021-10-08 13:36:18] Текст ошибки: Метод app\controllers\CurrencyController::changeAction не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 33 
+===============-
+[2021-10-08 13:42:08] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 16 
+===============-
+[2021-10-08 13:42:18] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 16 
+===============-
+[2021-10-08 13:43:21] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 16 
+===============-
+[2021-10-08 13:44:47] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 16 
+===============-
+[2021-10-08 13:47:39] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php | Строка: 11 
+===============-
+[2021-10-08 13:54:42] Текст ошибки: Контроллер app\controllers\ChangeController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-08 13:54:52] Текст ошибки: Контроллер app\controllers\ChangeController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-08 13:54:56] Текст ошибки: Контроллер app\controllers\ChangeController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-08 13:55:01] Текст ошибки: Контроллер app\controllers\ChangeController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-08 13:55:05] Текст ошибки: Контроллер app\controllers\ChangeController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-08 13:55:08] Текст ошибки: Контроллер app\controllers\ChangeController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-08 14:06:53] Текст ошибки: Call to undefined method shop\Registry::getProperties1() | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php | Строка: 15 
+===============-
+[2021-10-08 14:07:01] Текст ошибки: Too few arguments to function shop\Registry::getProperty(), 0 passed in D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php on line 15 and exactly 1 expected | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Registry.php | Строка: 15 
+===============-
+[2021-10-08 14:07:03] Текст ошибки: Метод app\controllers\CurrencyController::indexAction не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 33 
+===============-
+[2021-10-08 14:07:09] Текст ошибки: Too few arguments to function shop\Registry::getProperty(), 0 passed in D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php on line 15 and exactly 1 expected | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Registry.php | Строка: 15 
+===============-
+[2021-10-08 14:08:29] Текст ошибки: Контроллер app\controllers\CurrencyController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+===============-

@@ -4,12 +4,11 @@ namespace shop\base;
 
 use shop\App;
 
-class View
-{
+class View {
+
     use TParams;
 
-    public function __construct($route, $layout = '', $view = '', $meta)
-    {
+    public function __construct($route, $layout = '', $view = '', $meta) {
         $this->route = $route;
         $this->view = $view;
         $this->controller = $route['controller'];
@@ -17,22 +16,21 @@ class View
         $this->prefix = $route['prefix'];
         $this->meta = $meta;
 
-        if ($layout === false){
+        if ($layout === false) {
             $this->layout = false;
         } else {
             $this->layout = $layout ?: LAYOUT;
         }
     }
 
-    public function render($data)
-    {
+    public function render($data) {
         if(is_array($data)) {
             extract($data);
         }
 
         $viewFile = APP . "/views/{$this->prefix}{$this->controller}/{$this->view}" . '.php';
 
-        if (is_file($viewFile)){
+        if (is_file($viewFile)) {
             ob_start();
             require_once $viewFile;
             $content = ob_get_clean();
@@ -40,19 +38,17 @@ class View
             throw new \Exception("Не найден вид {$viewFile}", 500);
         }
 
-        if (false !== $this->layout){
+        if (false !== $this->layout) {
              $layoutFile = APP . "/views/layouts/{$this->layout}.php";
-            if (is_file($layoutFile)){
+            if (is_file($layoutFile)) {
                 require_once $layoutFile;
-            }else {
+            } else {
                 throw new \Exception("Не найден шаблон {$this->layout}", 500);
             }
         }
-
     }
 
-    public function getMeta()
-    {
+    public function getMeta() {
         $output = '<title>' . $this->meta['title'] . '</title>' . PHP_EOL;
         $output .= '<meta name="description" content="' . $this->meta['desc'] .'">' . PHP_EOL;
         $output .= '<meta name="keywords" content="' . $this->meta['keywords'] .'">' . PHP_EOL;

@@ -146,11 +146,11 @@
                 <!-- Header Action Start -->
                 <div class="col col-lg-auto align-self-center pl-0">
                     <div class="header-actions">
-<!--                            <select class="title">-->
-<!--                                <option>Dollar</option>-->
-<!--                                <option >Euro</option>-->
-<!--                                <option>UAH</option>-->
-<!--                            </select>-->
+                        <div class="dropdown position-static">
+                            <select id="currency">
+                                <?php new \app\widgets\currency\Currency(); ?>
+                            </select>
+                        </div>
                         <a href="login.html" class="header-action-btn login-btn" data-bs-toggle="modal"
                            data-bs-target="#loginActive">Sign In</a>
                         <!-- Single Wedge Start -->
@@ -724,6 +724,7 @@
 <!--<script src="public/assets/js/plugins/plugins.min.js"></script> -->
 
 <!-- Main Js -->
+<script src="public/assets/js/changeCurrency.js"></script>
 <script src="public/assets/js/main.js"></script>
 </body>
 
