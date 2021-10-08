@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Окт 06 2021 г., 14:50
+-- Время создания: Окт 08 2021 г., 14:12
 -- Версия сервера: 5.7.33
 -- Версия PHP: 7.4.21
 
@@ -243,6 +243,27 @@ INSERT INTO `gallery` (`id`, `product_id`, `img`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Структура таблицы `item_labels`
+--
+
+CREATE TABLE `item_labels` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `alias` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Дамп данных таблицы `item_labels`
+--
+
+INSERT INTO `item_labels` (`id`, `title`, `alias`) VALUES
+(1, 'Bestseller', 'bestseller'),
+(2, 'Sale', 'sale'),
+(3, 'New', 'new');
+
+-- --------------------------------------------------------
+
+--
 -- Структура таблицы `modification`
 --
 
@@ -315,34 +336,34 @@ CREATE TABLE `product` (
   `keywords` varchar(255) DEFAULT NULL,
   `description` varchar(255) DEFAULT NULL,
   `img` varchar(255) NOT NULL DEFAULT 'no_image.jpg',
-  `hit` enum('0','1') NOT NULL DEFAULT '0'
+  `label_id` int(20) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Дамп данных таблицы `product`
 --
 
-INSERT INTO `product` (`id`, `category_id`, `brand_id`, `title`, `alias`, `content`, `price`, `old_price`, `status`, `keywords`, `description`, `img`, `hit`) VALUES
-(12, 1, 1, 'Product 1', 'product-1', NULL, 100, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(13, 1, 2, 'Product 2', 'product-2', NULL, 105, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(14, 1, 2, 'Product 3', 'product-3', NULL, 110, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(15, 1, 3, 'Product 4', 'product-4', NULL, 115, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(16, 2, 3, 'Product 5', 'product-5', NULL, 115, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(17, 2, 2, 'Product 6', 'product-6', NULL, 120, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(20, 2, 5, 'Product 7', 'product-7', NULL, 120, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(21, 2, 5, 'Product 8', 'product-8', NULL, 120, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(22, 3, 5, 'Product 9', 'product-9', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(23, 3, 3, 'Product 10', 'product-10', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(24, 3, 5, 'Product 11', 'product-11', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(25, 3, 2, 'Product 12', 'product-12', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(26, 1, 3, 'Product 13', 'product-13', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(27, 2, 4, 'Product 14', 'product-14', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(28, 3, 4, 'Product 15', 'product-15', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(29, 1, 4, 'Product 16', 'product-16', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(30, 2, 4, 'Product 17', 'product-17', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(31, 3, 1, 'Product 18', 'product-18', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(32, 1, 1, 'Product 19', 'product-19', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(33, 2, 1, 'Product 20', 'product-20', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0');
+INSERT INTO `product` (`id`, `category_id`, `brand_id`, `title`, `alias`, `content`, `price`, `old_price`, `status`, `keywords`, `description`, `img`, `label_id`) VALUES
+(12, 1, 1, 'Product 1', 'product-1', NULL, 100, 0, '1', NULL, NULL, 'no_image.jpg', 0),
+(13, 1, 2, 'Product 2', 'product-2', NULL, 105, 0, '1', NULL, NULL, 'no_image.jpg', 1),
+(14, 1, 2, 'Product 3', 'product-3', NULL, 110, 120, '1', NULL, NULL, 'no_image.jpg', 2),
+(15, 1, 3, 'Product 4', 'product-4', NULL, 115, 0, '1', NULL, NULL, 'no_image.jpg', 3),
+(16, 2, 3, 'Product 5', 'product-5', NULL, 115, 0, '1', NULL, NULL, 'no_image.jpg', 0),
+(17, 2, 2, 'Product 6', 'product-6', NULL, 120, 0, '1', NULL, NULL, 'no_image.jpg', 1),
+(20, 2, 5, 'Product 7', 'product-7', NULL, 120, 130, '1', NULL, NULL, 'no_image.jpg', 2),
+(21, 2, 5, 'Product 8', 'product-8', NULL, 120, 0, '1', NULL, NULL, 'no_image.jpg', 3),
+(22, 3, 5, 'Product 9', 'product-9', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', 0),
+(23, 3, 3, 'Product 10', 'product-10', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', 1),
+(24, 3, 5, 'Product 11', 'product-11', NULL, 125, 140, '1', NULL, NULL, 'no_image.jpg', 2),
+(25, 3, 2, 'Product 12', 'product-12', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', 3),
+(26, 1, 3, 'Product 13', 'product-13', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', 0),
+(27, 2, 4, 'Product 14', 'product-14', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', 1),
+(28, 3, 4, 'Product 15', 'product-15', NULL, 125, 140, '1', NULL, NULL, 'no_image.jpg', 2),
+(29, 1, 4, 'Product 16', 'product-16', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', 3),
+(30, 2, 4, 'Product 17', 'product-17', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', 0),
+(31, 3, 1, 'Product 18', 'product-18', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', 1),
+(32, 1, 1, 'Product 19', 'product-19', NULL, 125, 155, '1', NULL, NULL, 'no_image.jpg', 2),
+(33, 2, 1, 'Product 20', 'product-20', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', 3);
 
 -- --------------------------------------------------------
 
@@ -435,6 +456,12 @@ ALTER TABLE `gallery`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Индексы таблицы `item_labels`
+--
+ALTER TABLE `item_labels`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Индексы таблицы `modification`
 --
 ALTER TABLE `modification`
@@ -460,7 +487,7 @@ ALTER TABLE `product`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `alias` (`alias`),
   ADD KEY `category_id` (`category_id`,`brand_id`),
-  ADD KEY `hit` (`hit`);
+  ADD KEY `label_id` (`label_id`);
 
 --
 -- Индексы таблицы `related_product`
@@ -502,7 +529,7 @@ ALTER TABLE `brand`
 -- AUTO_INCREMENT для таблицы `category`
 --
 ALTER TABLE `category`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT для таблицы `currency`
@@ -514,6 +541,12 @@ ALTER TABLE `currency`
 -- AUTO_INCREMENT для таблицы `gallery`
 --
 ALTER TABLE `gallery`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT для таблицы `item_labels`
+--
+ALTER TABLE `item_labels`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
