@@ -145,7 +145,9 @@
                     <div class="menu">
                         <?php new \app\widgets\menu\Menu([
                             'tpl' => WWW . '/menu/menu.php',
-                            'table' => 'test',
+                            'attrs' => [
+                                    'style' => 'color:red;'
+                            ]
                         ]);
                         ?>
                     </div>

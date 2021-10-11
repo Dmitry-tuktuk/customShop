@@ -138,3 +138,11 @@
 ===============-
 [2021-10-11 13:19:49] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 29 
 ===============-
+[2021-10-11 15:16:04] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 29 
+===============-
+[2021-10-11 16:03:47] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 27 
+===============-
+[2021-10-11 16:03:49] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 27 
+===============-
+[2021-10-11 16:20:15] Текст ошибки: syntax error, unexpected '=', expecting ']' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\layouts\onlineStore.php | Строка: 148 
+===============-

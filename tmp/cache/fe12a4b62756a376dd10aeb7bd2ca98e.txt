@@ -1,0 +1,19 @@
+a:2:{s:4:"data";s:462:"<li>
+    <a href="category/men">Men</a>
+            <ul>
+            <li>
+    <a href="category/shoes">Shoes</a>
+    </li>        </ul>
+    </li><li>
+    <a href="category/women">Women</a>
+            <ul>
+            <li>
+    <a href="category/heels">Туфли</a>
+    </li>        </ul>
+    </li><li>
+    <a href="category/kids">Kids</a>
+            <ul>
+            <li>
+    <a href="category/hats">Hats</a>
+    </li>        </ul>
+    </li>";s:8:"end_time";i:1633962292;}
