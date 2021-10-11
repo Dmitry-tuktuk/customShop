@@ -134,3 +134,7 @@
 ===============-
 [2021-10-08 14:08:29] Текст ошибки: Контроллер app\controllers\CurrencyController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
 ===============-
+[2021-10-11 12:10:05] Текст ошибки: Call to undefined function app\widgets\menu\Menu() | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\layouts\onlineStore.php | Строка: 146 
+===============-
+[2021-10-11 13:19:49] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 29 
+===============-

@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="col align-self-center d-none d-lg-block">
-                    <div class="main-menu">
+                    <!--<div class="main-menu">
                         <ul>
                             <li class="title"><a href="/">Home</a></li>
                             <li class="dropdown position-static"><a href="#">Shop <i
@@ -141,6 +141,13 @@
                             <li><a href="contact.html">Contact us</a></li>
                         </ul>
 
+                    </div>-->
+                    <div class="menu">
+                        <?php new \app\widgets\menu\Menu([
+                            'tpl' => WWW . '/menu/menu.php',
+                            'table' => 'test',
+                        ]);
+                        ?>
                     </div>
                 </div>
                 <!-- Header Action Start -->

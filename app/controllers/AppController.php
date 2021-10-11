@@ -4,8 +4,10 @@ namespace app\controllers;
 
 use app\models\AppModel;
 use app\widgets\currency\Currency;
+use RedBeanPHP\R;
 use shop\App;
 use shop\base\Controller;
+use shop\Cache;
 
 
 class AppController extends Controller {
@@ -16,10 +18,18 @@ class AppController extends Controller {
         new AppModel();
         App::$app->setProperty('currencies', Currency::getCurrencies());
         App::$app->setProperty('currency', Currency::getCurrency(App::$app->getProperty('currencies')));
+        App::$app->setProperty('cats', self::cacheCategory());
+        debug(App::$app->getProperties());
 
-        //debug(App::$app->getProperties());
+    }
 
-        //Запись тестовой куки валют
-        //setcookie('currency', 'UAH', time()+3600*24*7, '/');
+    public static function cacheCategory() {
+        $cache = Cache::instance();
+        $cats = $cache->get('cats');
+        if (!$cats) {
+            $cats = R::getAssoc("SELECT * FROM category");
+            $cache->set('cats', $cats);
+        }
+        return $cats;
     }
 }
