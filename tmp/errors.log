@@ -146,3 +146,9 @@
 ===============-
 [2021-10-11 16:20:15] Текст ошибки: syntax error, unexpected '=', expecting ']' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\layouts\onlineStore.php | Строка: 148 
 ===============-
+[2021-10-12 11:56:42] Текст ошибки: syntax error, unexpected '*', expecting end of file | Файл: D:\Programms\OpenServer\domains\customShop.loc\public\menu\menu.php | Строка: 12 
+===============-
+[2021-10-12 12:41:56] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-12 13:01:08] Текст ошибки: syntax error, unexpected '=', expecting ']' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 97 
+===============-

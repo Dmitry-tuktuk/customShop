@@ -12,8 +12,8 @@ class Menu {
     protected $tree;
     protected $menuHtml;
     protected $tpl;
-    protected $container = 'ul';
-    protected $class = 'menu';
+    protected $container = 'li';
+    protected $class = 'd-flex';
     protected $table = 'category';
     protected $cache = 3600;
     protected $cacheKey = 'shop_menu';
