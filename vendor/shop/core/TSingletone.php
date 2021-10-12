@@ -3,6 +3,7 @@
 namespace shop;
 
 trait TSingletone {
+
     private static $instance;
 
     public static function instance() {

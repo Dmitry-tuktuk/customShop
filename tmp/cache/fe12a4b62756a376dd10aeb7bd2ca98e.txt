@@ -1,0 +1,59 @@
+a:2:{s:4:"data";s:1637:"<ul class="d-block">
+    <li class="title">
+        <a href="category/men">Men</a>
+    </li>
+            <ul>
+            <ul class="d-block">
+    <li class="title">
+        <a href="category/shoes">Shoes</a>
+    </li>
+    </ul><ul class="d-block">
+    <li class="title">
+        <a href="category/t-shirts">T-shirts</a>
+    </li>
+    </ul><ul class="d-block">
+    <li class="title">
+        <a href="category/jackets">Jackets</a>
+    </li>
+    </ul><ul class="d-block">
+    <li class="title">
+        <a href="category/shorts">Shorts</a>
+    </li>
+    </ul>        </ul>
+    </ul><ul class="d-block">
+    <li class="title">
+        <a href="category/women">Women</a>
+    </li>
+            <ul>
+            <ul class="d-block">
+    <li class="title">
+        <a href="category/heels">Heels</a>
+    </li>
+    </ul><ul class="d-block">
+    <li class="title">
+        <a href="category/t-shirts-woomen">T-shirts woomen</a>
+    </li>
+    </ul><ul class="d-block">
+    <li class="title">
+        <a href="category/jackets-woomen">Jackets woomen</a>
+    </li>
+    </ul>        </ul>
+    </ul><ul class="d-block">
+    <li class="title">
+        <a href="category/kids">Kids</a>
+    </li>
+            <ul>
+            <ul class="d-block">
+    <li class="title">
+        <a href="category/hats">Hats</a>
+    </li>
+    </ul><ul class="d-block">
+    <li class="title">
+        <a href="category/t-shirts-kids">T-shirts Kids</a>
+    </li>
+    </ul><ul class="d-block">
+    <li class="title">
+        <a href="category/jackets-kids">Jackets Kids</a>
+    </li>
+    </ul>        </ul>
+    </ul>";s:8:"end_time";i:1634037006;}
