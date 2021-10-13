@@ -10,6 +10,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
+    <!--Base href -->
+    <base href="/">
+
     <!-- Add site Favicon -->
     <link rel="shortcut icon" href="public/assets/images/favicon/favicon.ico" type="image/png">
 
@@ -49,7 +52,7 @@
             <div class="row">
                 <div class="col-auto align-self-center">
                     <div class="header-logo">
-                        <a href="/"><img src="public/assets/images/logo/logo.png" alt="Site Logo" /></a>
+                        <a href="<?=PATH?>"><img src="public/assets/images/logo/logo.png" alt="Site Logo" /></a>
                     </div>
                 </div>
                 <div class="col align-self-center d-none d-lg-block">

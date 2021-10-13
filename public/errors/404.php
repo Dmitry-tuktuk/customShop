@@ -635,7 +635,7 @@
 <script src="public/assets/js/vendor/modernizr-3.11.2.min.js"></script>
 
 <!--Plugins JS-->
-<script src="public/assets/js/plugins/swiper-bundle.min.js"></script>
+<script src="../assets/js/plugins/swiper-bundle.min.js"></script>
 <script src="public/assets/js/plugins/jquery-ui.min.js"></script>
 <script src="public/assets/js/plugins/jquery.nice-select.min.js"></script>
 <script src="public/assets/js/plugins/countdown.js"></script>
@@ -649,7 +649,7 @@
 <script src="assets/js/plugins/plugins.min.js"></script> -->
 
 <!-- Main Js -->
-<script src="public/assets/js/main.js"></script>
+<script src="../assets/js/main.js"></script>
 </body>
 
 </html>

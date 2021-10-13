@@ -152,3 +152,53 @@
 ===============-
 [2021-10-12 13:01:08] Текст ошибки: syntax error, unexpected '=', expecting ']' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 97 
 ===============-
+[2021-10-13 09:47:07] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+===============-
+[2021-10-13 09:50:53] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+===============-
+[2021-10-13 09:55:20] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop.loc/app/views/Product/index.php | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-10-13 09:55:45] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop.loc/app/views/Product/index.php | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-10-13 09:55:50] Текст ошибки: Контроллер app\controllers\ProductCardController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-13 09:58:19] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+===============-
+[2021-10-13 10:04:47] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+===============-
+[2021-10-13 10:04:56] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+===============-
+[2021-10-13 10:05:22] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+===============-
+[2021-10-13 10:06:23] Текст ошибки: Метод app\controllers\ProductController::vewAction не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 33 
+===============-
+[2021-10-13 10:06:53] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop.loc/app/views/Product/view.php | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-10-13 10:07:13] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop.loc/app/views/Product/view.php | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-10-13 10:14:43] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+===============-
+[2021-10-13 10:36:50] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+===============-
+[2021-10-13 10:36:58] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+===============-
+[2021-10-13 10:37:16] Текст ошибки: Страница не найдена1 | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+===============-
+[2021-10-13 10:37:25] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+===============-
+[2021-10-13 10:37:33] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+===============-
+[2021-10-13 10:37:44] Текст ошибки: syntax error, unexpected ')' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 12 
+===============-
+[2021-10-13 10:38:05] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+===============-
+[2021-10-13 10:38:10] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+===============-
+[2021-10-13 10:38:20] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+===============-
+[2021-10-13 10:38:27] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+===============-
+[2021-10-13 10:40:40] Текст ошибки: syntax error, unexpected '/' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Product\view.php | Строка: 10 
+===============-
+[2021-10-13 10:44:43] Текст ошибки: syntax error, unexpected 'endif' (T_ENDIF), expecting end of file | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Product\view.php | Строка: 597 
+===============-
