@@ -202,3 +202,13 @@
 ===============-
 [2021-10-13 10:44:43] Текст ошибки: syntax error, unexpected 'endif' (T_ENDIF), expecting end of file | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Product\view.php | Строка: 597 
 ===============-
+[2021-10-13 11:26:45] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+===============-
+[2021-10-13 13:10:02] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Product\view.php | Строка: 598 
+===============-
+[2021-10-13 13:12:08] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+===============-
+[2021-10-13 13:12:16] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+===============-
+[2021-10-13 13:40:19] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+===============-

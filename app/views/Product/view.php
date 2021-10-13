@@ -18,6 +18,10 @@
 <!-- breadcrumb-area end -->
 
 <!-- Product Details Area Start -->
+<?php
+$curr = \shop\App::$app->getProperty('currency');
+$cats = \shop\App::$app->getProperty('cats');
+;?>
 <div class="product-details-area pt-100px pb-100px">
     <div class="container">
         <div class="row">
@@ -69,7 +73,14 @@
                     <h2><?=$product['title']?></h2>
                     <div class="pricing-meta">
                         <ul>
-                            <li class="old-price not-cut">$18.90</li>
+                            <li style="color: #dc3545">
+                                <?= $curr['symbol_left']?><?= round($product->price * $curr['value']) ?><?= $curr['symbol_right']?>
+                            </li>
+                            <?php if($product->old_price):?>
+                            <span style="color: #0f0f0f">
+                                <del><li><?= $curr['symbol_left']?><?= round($product->old_price * $curr['value']) ?><?= $curr['symbol_right']?></li></del>
+                            <?php endif ?>
+                            </span>
                         </ul>
                     </div>
                     <div class="pro-details-rating-wrap">
@@ -105,15 +116,13 @@
                             </ul>
                         </div>
                     </div>
-                    <p class="m-0">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incidi ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita ullamco laboris nisi
-                        ut aliquip ex ea commodo </p>
+                    <p class="m-0"><?=  $product->description ?></p>
                     <div class="pro-details-quality">
                         <div class="cart-plus-minus">
-                            <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1" />
+                            <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1" min="1" step="1"/>
                         </div>
                         <div class="pro-details-cart">
-                            <button class="add-cart" href="#"> Add To
+                            <button id="productAdd" data-id="<?= $product->id ?>" class="add-cart add-to-cart-link" href="/card/add?id=<?= $product->id ?>"> Add To
                                 Cart</button>
                         </div>
                         <div class="pro-details-compare-wishlist pro-details-wishlist ">
@@ -123,22 +132,11 @@
                             <a href="compare.html"><i class="pe-7s-refresh-2"></i></a>
                         </div>
                     </div>
-                    <div class="pro-details-sku-info pro-details-same-style  d-flex">
-                        <span>SKU: </span>
-                        <ul class="d-flex">
-                            <li>
-                                <a href="#">Ch-256xl</a>
-                            </li>
-                        </ul>
-                    </div>
                     <div class="pro-details-categories-info pro-details-same-style d-flex">
                         <span>Categories: </span>
                         <ul class="d-flex">
                             <li>
-                                <a href="#">Fashion.</a>
-                            </li>
-                            <li>
-                                <a href="#">eCommerce</a>
+                                <a href="/category/<?= $cats[$product->category_id]['alias']?>"><?= $cats[$product->category_id]['title']?></a>
                             </li>
                         </ul>
                     </div>

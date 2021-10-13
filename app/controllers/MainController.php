@@ -10,7 +10,6 @@ class MainController extends AppController {
 
     public function indexAction(){
 
-        //Как передать другой вид стр?
         //Вывести количество товара в категории?
 
         /*Запрос выборки нужных данных из базы*/

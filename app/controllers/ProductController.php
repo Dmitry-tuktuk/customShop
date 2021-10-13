@@ -13,7 +13,7 @@ class ProductController extends AppController {
             throw new \Exception('Страница не найдена', 404);
         }
 
-        debug($product);
+        //debug($product);
 
         //Meta
         $this->setMeta($product->title, $product->description, $product->keywords);
