@@ -222,3 +222,5 @@
 ===============-
 [2021-10-14 09:31:41] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Db.php | Строка: 17 
 ===============-
+[2021-10-14 12:53:00] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
