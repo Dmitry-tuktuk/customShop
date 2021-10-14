@@ -13,8 +13,6 @@ class ProductController extends AppController {
             throw new \Exception('Страница не найдена', 404);
         }
 
-        //debug($product);
-
         //Meta
         $this->setMeta($product->title, $product->description, $product->keywords);
 
@@ -27,10 +25,12 @@ class ProductController extends AppController {
 
         //Доп. параметры товара
 
+        //Подключить шаринг товара
+
         //Галерея
+        $gallery = R::findAll('gallery', 'product_id = ?', [$product->id]);
 
-
-        $this->set(compact('product', 'related'));
+        $this->set(compact('product', 'related', 'gallery'));
     }
 
 }

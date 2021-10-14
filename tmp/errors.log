@@ -230,3 +230,15 @@
 ===============-
 [2021-10-14 15:19:37] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 384 
 ===============-
+[2021-10-14 16:18:24] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 39 
+===============-
+[2021-10-14 16:18:24] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 39 
+===============-
+[2021-10-14 16:18:24] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 39 
+===============-
+[2021-10-14 16:18:24] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 39 
+===============-
+[2021-10-14 16:18:36] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 39 
+===============-
+[2021-10-14 16:39:31] Текст ошибки: syntax error, unexpected '?>', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 187 
+===============-

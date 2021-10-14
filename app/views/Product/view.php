@@ -29,42 +29,31 @@ $cats = \shop\App::$app->getProperty('cats');
                 <!-- Swiper -->
                 <div class="swiper-container zoom-top">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide zoom-image-hover">
-                            <img class="img-responsive m-auto" src="public/assets/images/product-image/zoom-image/1.jpg"
-                                 alt="">
-                        </div>
-                        <div class="swiper-slide zoom-image-hover">
-                            <img class="img-responsive m-auto" src="public/assets/images/product-image/zoom-image/2.jpg"
-                                 alt="">
-                        </div>
-                        <div class="swiper-slide zoom-image-hover">
-                            <img class="img-responsive m-auto" src="public/assets/images/product-image/zoom-image/3.jpg"
-                                 alt="">
-                        </div>
-                        <div class="swiper-slide zoom-image-hover">
-                            <img class="img-responsive m-auto" src="public/assets/images/product-image/zoom-image/4.jpg"
-                                 alt="">
-                        </div>
+                        <?php if($gallery): ?>
+                            <?php foreach ($gallery as $image): ?>
+                                <div class="swiper-slide">
+                                    <img class="img-responsive m-auto" src="public/assets/images/product-image/zoom-image/<?= $image->img?>"
+                                         alt="">
+                                </div>
+                            <?php endforeach; ?>
+                        <?php else:?>
+                            <div class="swiper-slide">
+                                <img class="img-responsive m-auto" src="public/assets/images/product-image/zoom-image/<?= $product->img?>"
+                                     alt="">
+                            </div>
+                        <?php endif; ?>
                     </div>
                 </div>
                 <div class="swiper-container zoom-thumbs mt-3 mb-3">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img class="img-responsive m-auto" src="public/assets/images/product-image/small-image/1.jpg"
-                                 alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="img-responsive m-auto" src="public/assets/images/product-image/small-image/2.jpg"
-                                 alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="img-responsive m-auto" src="public/assets/images/product-image/small-image/3.jpg"
-                                 alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="img-responsive m-auto" src="public/assets/images/product-image/small-image/4.jpg"
-                                 alt="">
-                        </div>
+                        <?php if($gallery): ?>
+                            <?php foreach ($gallery as $image): ?>
+                                <div class="swiper-slide">
+                                    <img class="img-responsive m-auto" src="public/assets/images/product-image/small-image/<?= $image->img?>"
+                                         alt="">
+                                </div>
+                            <?php endforeach; ?>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
@@ -179,30 +168,15 @@ $cats = \shop\App::$app->getProperty('cats');
             <div class="tab-content description-review-bottom">
                 <div id="des-details2" class="tab-pane">
                     <div class="product-anotherinfo-wrapper text-start">
-                        <ul>
-                            <li><span>Weight</span> 400 g</li>
-                            <li><span>Dimensions</span>10 x 10 x 15 cm</li>
-                            <li><span>Materials</span> 60% cotton, 40% polyester</li>
-                            <li><span>Other Info</span> American heirloom jean shorts pug seitan letterpress</li>
-                        </ul>
+                        <p>
+                            <?=$product['params']?>
+                        </p>
                     </div>
                 </div>
                 <div id="des-details1" class="tab-pane active">
                     <div class="product-description-wrapper">
                         <p>
-
-                            Lorem ipsum dolor sit amet, consectetur adipisi elit, incididunt ut labore et. Ut enim
-                            ad minim veniam, quis nostrud exercita ullamco laboris nisi ut aliquip ex ea commol
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                            qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
-                            natus error sit voluptatem accusantiulo doloremque laudantium, totam rem aperiam, eaque
-                            ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                            explicabo. Nemo enim ipsam voluptat quia voluptas sit aspernatur aut odit aut fugit, sed
-                            quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-                            quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-                            quia non numquam eius modi tempora incidunt ut labore
-
+                            <?=$product['content']?>
                         </p>
                     </div>
                 </div>
@@ -378,10 +352,10 @@ $cats = \shop\App::$app->getProperty('cats');
                                 </a>
                             </h5>
                             <span class="price">
+                                <?php if ($item['old_price'] > 0): ?>
+                                    <span class="old"><?= $curr['symbol_left'] ?><?= round($item['old_price'] * $curr['value']) ?><?= $curr['symbol_right'] ?></span>
+                                <?php endif ?>
                                 <span class="new"><?= $curr['symbol_left'] ?><?= round($item['price'] * $curr['value']) ?><?= $curr['symbol_right'] ?></span>
-                                    <?php if ($item['old_price'] > 0): ?>
-                                        <span class="old"><?= $curr['symbol_left'] ?><?= round($item['old_price'] * $curr['value']) ?><?= $curr['symbol_right'] ?></span>
-                                    <?php endif ?>
                             </span>
                         </div>
                     </div>
