@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:mysql://localhost:3306/customshop.loc</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="@db.online" uuid="63fab89f-4b6a-47b9-a922-ec4616235ca8">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://bk398054.mysql.tools:3306/bk398054_customshop</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
