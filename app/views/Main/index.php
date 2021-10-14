@@ -242,7 +242,7 @@
                                             <a href="compare.html" class="action compare" title="Compare"><i
                                                     class="pe-7s-refresh-2"></i></a>
                                         </div>
-                                        <a title="Add To Cart" class=" add-to-cart add-to-cart-link" href="/cart/add/<?=$product->id?>">Add
+                                        <a title="Add To Cart" class=" add-to-cart add-to-cart-link" href="/cart/add?id=<?=$product->id?>">Add
                                             To Cart</a>
                                     </div>
                                     <div class="content">
@@ -296,7 +296,7 @@
                                             <a href="compare.html" class="action compare" title="Compare"><i
                                                     class="pe-7s-refresh-2"></i></a>
                                         </div>
-                                        <button title="Add To Cart" class=" add-to-cart add-to-cart-link" href="/cart/add/<?=$productNew->id?>">Add
+                                        <button title="Add To Cart" class=" add-to-cart add-to-cart-link" href="/cart/add?id=<?=$productNew->id?>">Add
                                             To Cart</button>
                                     </div>
                                     <div class="content">
@@ -347,7 +347,7 @@
                                             <a href="compare.html" class="action compare" title="Compare"><i
                                                     class="pe-7s-refresh-2"></i></a>
                                         </div>
-                                        <a title="Add To Cart" class=" add-to-cart add-to-cart-link" href="/cart/add/<?=$productBestseller->id?>">Add
+                                        <a title="Add To Cart" class=" add-to-cart add-to-cart-link" href="/cart/add?id=<?=$productBestseller->id?>">Add
                                             To Cart</a>
                                     </div>
                                     <div class="content">
@@ -400,7 +400,7 @@
                                             <a href="compare.html" class="action compare" title="Compare"><i
                                                     class="pe-7s-refresh-2"></i></a>
                                         </div>
-                                        <a title="Add To Cart" class=" add-to-cart add-to-cart-link" href="/cart/add/<?=$productSale->id?>">Add
+                                        <a title="Add To Cart" class=" add-to-cart add-to-cart-link" href="/cart/add?id=<?=$productSale->id?>">Add
                                             To Cart</a>
                                     </div>
                                     <div class="content">

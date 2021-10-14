@@ -5339,6 +5339,7 @@ Pages - My Account
 
 /* Product Style */
 .product {
+  padding: 0 10px 0 10px;
   overflow: hidden;
 }
 .product .thumb {

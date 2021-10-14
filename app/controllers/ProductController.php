@@ -22,7 +22,6 @@ class ProductController extends AppController {
 
         //Связанные товары
         $related = R::getAll("SELECT * FROM related_product JOIN product ON product.id = related_product.related_id WHERE related_product.product_id = ?", [$product->id]);
-        debug($related);
 
         //Записать в куки товары просмотренные ранее, вывести их
 
@@ -31,7 +30,7 @@ class ProductController extends AppController {
         //Галерея
 
 
-        $this->set(compact('product'));
+        $this->set(compact('product', 'related'));
     }
 
 }
