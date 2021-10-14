@@ -212,3 +212,13 @@
 ===============-
 [2021-10-13 13:40:19] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
 ===============-
+[2021-10-13 16:22:10] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 24 
+===============-
+[2021-10-13 16:44:13] Текст ошибки: syntax error, unexpected ';', expecting ')' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 24 
+===============-
+[2021-10-14 09:30:01] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-14 09:30:07] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-14 09:31:41] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Db.php | Строка: 17 
+===============-

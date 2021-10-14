@@ -21,6 +21,8 @@ class ProductController extends AppController {
         //Хлебные крошки
 
         //Связанные товары
+        $related = R::getAll("SELECT * FROM related_product JOIN product ON product.id = related_product.related_id WHERE related_product.product_id = ?", [$product->id]);
+        debug($related);
 
         //Записать в куки товары просмотренные ранее, вывести их
 

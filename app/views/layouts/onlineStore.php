@@ -675,6 +675,19 @@
 <!-- Main Js -->
 <script src="public/assets/js/changeCurrency.js"></script>
 <script src="public/assets/js/main.js"></script>
+
+<?php
+
+use  RedBeanPHP\R;
+
+$logs = R::getDatabaseAdapter()
+    ->getDatabase()
+    ->getLogger();
+
+debug( $logs->grep( 'SELECT' ) );
+
+?>
+
 </body>
 
 </html>
