@@ -6,8 +6,7 @@
                 <h2 class="breadcrumb-title"><?=$product['title']?></h2>
                 <!-- breadcrumb-list start -->
                 <ul class="breadcrumb-list">
-                    <li class="breadcrumb-item"><a href="<?=PATH?>">Home</a></li>
-                    <li class="breadcrumb-item active"><?=$product['title']?></li>
+                    <?= $breadcrumbs ?>
                 </ul>
                 <!-- breadcrumb-list end -->
             </div>
