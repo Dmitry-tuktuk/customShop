@@ -242,3 +242,9 @@
 ===============-
 [2021-10-14 16:39:31] Текст ошибки: syntax error, unexpected '?>', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 187 
 ===============-
+[2021-10-19 13:34:35] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\ProductController.php | Строка: 14 
+===============-
+[2021-10-19 13:45:07] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-19 13:45:37] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-

@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Product;
 use RedBeanPHP\R;
 
 class ProductController extends AppController {
@@ -21,7 +22,16 @@ class ProductController extends AppController {
         //Связанные товары
         $related = R::getAll("SELECT * FROM related_product JOIN product ON product.id = related_product.related_id WHERE related_product.product_id = ?", [$product->id]);
 
-        //Записать в куки товары просмотренные ранее, вывести их
+        //Записать в куки просмотренные товары
+        $p_model = new Product();
+        $p_model->setRecentlyViewed($product->id);
+
+        //Просмотренные товары
+        $r_viewed = $p_model->getRecentlyViewed();
+        $recentlyViewed = null;
+        if ($r_viewed){
+            $recentlyViewed = R::find('product', 'id IN (' . R::genSlots($r_viewed) . ') LIMIT 4', $r_viewed);
+        }
 
         //Доп. параметры товара
 
@@ -30,7 +40,7 @@ class ProductController extends AppController {
         //Галерея
         $gallery = R::findAll('gallery', 'product_id = ?', [$product->id]);
 
-        $this->set(compact('product', 'related', 'gallery'));
+        $this->set(compact('product', 'related', 'gallery', 'recentlyViewed'));
     }
 
 }

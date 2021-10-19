@@ -372,3 +372,84 @@ $cats = \shop\App::$app->getProperty('cats');
 </div>
 <!-- Related product Area End -->
 <?php endif; ?>
+
+<!-- Recently product Area -->
+<?php if($recentlyViewed): ?>
+    <div class="related-product-area pb-100px">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title text-center mb-30px0px line-height-1">
+                        <h2 class="title m-0">Recently Products</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="new-product-slider swiper-container slider-nav-style-1 small-nav">
+                <div class="new-product-wrapper swiper-wrapper">
+                    <?php foreach ($recentlyViewed as $item): ?>
+                        <!-- Single Prodect -->
+                        <div class="product">
+                            <div class="thumb">
+                                <a href="/product/<?= $item['alias'] ?>" class="image">
+                                    <img src="public/assets/images/product-image/<?= $item['img'] ?>" alt="Product"/>
+                                    <img class="hover-image" src="public/assets/images/product-image/<?= $item['img'] ?>"
+                                         alt="Product"/>
+                                </a>
+                                <span class="badges">
+                                <?php if ($item['label_id'] == 3): ?>
+                                    <span class="new">New</span>
+                                <?php endif ?>
+                                    <?php if ($item['label_id'] == 2): ?>
+                                        <span class="new">Best</span>
+                                    <?php endif ?>
+                                    <?php if ($item['old_price'] > 0) : ?>
+                                        <span class="sale"><?= round(($item['price'] / ($item['old_price'] / 100)) - 100) . '%' ?></span>
+                                    <?php endif ?>
+                             </span>
+                                <div class="actions">
+                                    <a href="wishlist.html" class="action wishlist" title="Wishlist"><i
+                                                class="pe-7s-like"></i></a>
+                                    <a href="#" class="action quickview" data-link-action="quickview"
+                                       title="Quick view" data-bs-toggle="modal"
+                                       data-bs-target="#exampleModal"><i class="pe-7s-search"></i></a>
+                                    <a href="compare.html" class="action compare" title="Compare"><i
+                                                class="pe-7s-refresh-2"></i></a>
+                                </div>
+                                <a title="Add To Cart" class=" add-to-cart add-to-cart-link"
+                                   href="/cart/add?id=<?= $item['id'] ?>" data-id="<?= $item['id'] ?>">
+                                    Add To Cart
+                                </a>
+                            </div>
+                            <div class="content">
+                                <span class="ratings">
+                                    <span class="rating-wrap">
+                                        <span class="star" style="width: 100%"></span>
+                                    </span>
+                                    <span class="rating-num">( 5 Review )</span>
+                                </span>
+                                <h5 class="title">
+                                    <a href="/product/<?= $item['alias'] ?>">
+                                        <?= $item['title'] ?>
+                                    </a>
+                                </h5>
+                                <span class="price">
+                                <?php if ($item['old_price'] > 0): ?>
+                                    <span class="old"><?= $curr['symbol_left'] ?><?= round($item['old_price'] * $curr['value']) ?><?= $curr['symbol_right'] ?></span>
+                                <?php endif ?>
+                                <span class="new"><?= $curr['symbol_left'] ?><?= round($item['price'] * $curr['value']) ?><?= $curr['symbol_right'] ?></span>
+                            </span>
+                            </div>
+                        </div>
+                        <!-- Single Prodect -->
+                    <?php endforeach ?>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-buttons">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Recently product Area End -->
+<?php endif; ?>
