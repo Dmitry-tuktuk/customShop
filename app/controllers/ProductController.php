@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Breadcrumbs;
 use app\models\Product;
 use RedBeanPHP\R;
 
@@ -18,6 +19,7 @@ class ProductController extends AppController {
         $this->setMeta($product->title, $product->description, $product->keywords);
 
         //Хлебные крошки
+        $breadcrumbs = Breadcrumbs::getBreadcrumbs($product->category_id, $product->title);
 
         //Связанные товары
         $related = R::getAll("SELECT * FROM related_product JOIN product ON product.id = related_product.related_id WHERE related_product.product_id = ?", [$product->id]);
@@ -40,7 +42,7 @@ class ProductController extends AppController {
         //Галерея
         $gallery = R::findAll('gallery', 'product_id = ?', [$product->id]);
 
-        $this->set(compact('product', 'related', 'gallery', 'recentlyViewed'));
+        $this->set(compact('product', 'related', 'gallery', 'recentlyViewed', 'breadcrumbs'));
     }
 
 }
