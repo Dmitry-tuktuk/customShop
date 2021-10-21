@@ -62,11 +62,11 @@ $cats = \shop\App::$app->getProperty('cats');
                     <div class="pricing-meta">
                         <ul>
                             <li style="color: #dc3545">
-                                <?= $curr['symbol_left']?><?= round($product->price * $curr['value']) ?><?= $curr['symbol_right']?>
+                                <span id="new-price" data-new-price="<?= round($product->price * $curr['value']) ?>"><?= $curr['symbol_left']?><?= round($product->price * $curr['value']) ?><?= $curr['symbol_right']?></span>
                             </li>
                             <?php if($product->old_price):?>
                             <span style="color: #0f0f0f">
-                                <del><li><?= $curr['symbol_left']?><?= round($product->old_price * $curr['value']) ?><?= $curr['symbol_right']?></li></del>
+                                <del><li><span id="old-price" data-old-price="<?= round($product->old_price * $curr['value']) ?>"><?= $curr['symbol_left']?><?= round($product->old_price * $curr['value']) ?><?= $curr['symbol_right']?></span></li></del>
                             <?php endif ?>
                             </span>
                         </ul>
@@ -81,29 +81,41 @@ $cats = \shop\App::$app->getProperty('cats');
                         </div>
                         <span class="read-review"><a class="reviews" href="#">( 5 Customer Review )</a></span>
                     </div>
-                    <div class="pro-details-color-info d-flex align-items-center">
-                        <span>Color</span>
-                        <div class="pro-details-color">
-                            <ul>
-                                <li><a class="active-color yellow" href="#"></a></li>
-                                <li><a class="black" href="#"></a></li>
-                                <li><a class="red" href="#"></a></li>
-                                <li><a class="pink" href="#"></a></li>
-                            </ul>
+                    <div class="mods"><?php if($mods) : ?>
+                        <div class="pro-details-color-info d-flex align-items-center">
+                                <span>Color</span>
+                                <div class="pro-details-color">
+                                    <select class="select-css">
+                                        <option value="">Select color...</option>
+                                        <?php foreach ($mods as $mod): ?>
+                                            <option data-title="<?= $mod->color ?>"
+                                                    data-price="<?= $mod->price * $curr['value']; ?>"
+                                                    value="<?= $mod->id ?>"
+                                            ><?= $mod->color ?>
+                                            </option>
+                                        <?php endforeach ?>
+                                    </select>
+                                </div>
                         </div>
-                    </div>
-                    <!-- Sidebar single item -->
-                    <div class="pro-details-size-info d-flex align-items-center">
-                        <span>Size</span>
-                        <div class="pro-details-size">
-                            <ul>
-                                <li><a class="active-size gray" href="#">S</a></li>
-                                <li><a class="gray" href="#">M</a></li>
-                                <li><a class="gray" href="#">L</a></li>
-                                <li><a class="gray" href="#">XL</a></li>
-                            </ul>
+                        <!-- Sidebar single item -->
+                        <div class="pro-details-size-info d-flex align-items-center">
+                            <?php if ($mod->size != null): ?>
+                                <span>Size</span>
+                                <div class="pro-details-size">
+                                    <select class="select-css">
+                                        <option value="">Select size...</option>
+                                        <?php foreach ($mods as $mod): ?>
+                                            <option data-size="<?= $mod->size ?>"
+                                                    data-price="<?= $mod->price * $curr['value']; ?>"
+                                                    value="<?= $mod->id ?>"
+                                            ><?= $mod->size ?>
+                                            </option>
+                                        <?php endforeach ?>
+                                    </select>
+                                </div>
+                            <?php endif ?>
                         </div>
-                    </div>
+                    <?php endif ?></div>
                     <p class="m-0"><?=  $product->description ?></p>
                     <div class="pro-details-quality">
                         <div class="cart-plus-minus">
@@ -439,7 +451,7 @@ $cats = \shop\App::$app->getProperty('cats');
                             </span>
                             </div>
                         </div>
-                        <!-- Single Prodect -->
+                        <!-- Single Product -->
                     <?php endforeach ?>
                 </div>
                 <!-- Add Arrows -->
