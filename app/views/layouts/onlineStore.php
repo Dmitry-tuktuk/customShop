@@ -97,7 +97,7 @@
                 <!-- Header Action Start -->
                 <div class="col col-lg-auto align-self-center pl-0">
                     <div class="header-actions">
-                        <select id="currency" >
+                        <select id="currency"  class="select-css">
                             <?php new \app\widgets\currency\Currency(); ?>
                         </select>
                         <a href="login.html" class="header-action-btn login-btn" data-bs-toggle="modal"
@@ -651,6 +651,15 @@
 
 <!-- Global Vendor, plugins JS -->
 
+<?= $curr = \shop\App::$app->getProperty('currency') ?>
+<script>
+    var path = '<?= PATH ?>',
+        course = '<?= $curr['value']?>',
+        symbolLeft = '<?= $curr['symbol_left']?>',
+        symbolRight = '<?= $curr['symbol_right']?>';
+        sale = '<?= round( 100 - ($product->price / ($product->old_price / 100))) ?>';
+</script>
+
 <!-- Vendor JS -->
 <script src="public/assets/js/vendor/jquery-3.5.1.min.js"></script>
 
@@ -673,8 +682,8 @@
 <!--<script src="public/assets/js/plugins/plugins.min.js"></script> -->
 
 <!-- Main Js -->
-<script src="public/assets/js/changeCurrency.js"></script>
 <script src="public/assets/js/main.js"></script>
+<script src="public/assets/js/customScripts.js"></script>
 
 <?php
 

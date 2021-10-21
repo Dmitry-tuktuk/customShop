@@ -36,13 +36,18 @@ class ProductController extends AppController {
         }
 
         //Доп. параметры товара
+        //Цвет
+        $mods = R::findAll('modification', 'product_id = ?', [$product->id]);
+        //Размер товара
 
         //Подключить шаринг товара
+
+        //Подключить рейтинг товара
 
         //Галерея
         $gallery = R::findAll('gallery', 'product_id = ?', [$product->id]);
 
-        $this->set(compact('product', 'related', 'gallery', 'recentlyViewed', 'breadcrumbs'));
+        $this->set(compact('product', 'related', 'gallery', 'recentlyViewed', 'breadcrumbs', 'mods'));
     }
 
 }

@@ -240,7 +240,36 @@
 ===============-
 [2021-10-14 16:18:36] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 39 
 ===============-
-[2021-10-14 16:39:31] Текст ошибки: syntax error, unexpected '?>', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 187 
+[2021-10-14 16:39:31] Текст ошибки: syntax error, unexpected '?>
+', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 187 
+===============-
+[2021-10-19 13:34:35] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\ProductController.php | Строка: 14 
+===============-
+[2021-10-19 13:45:07] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-19 13:45:37] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-20 11:07:40] Текст ошибки: syntax error, unexpected 'if' (T_IF) | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 118 
+===============-
+[2021-10-20 11:09:01] Текст ошибки: Call to undefined function null() | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 118 
+===============-
+[2021-10-20 11:09:53] Текст ошибки: syntax error, unexpected '=' | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 118 
+===============-
+[2021-10-20 11:10:02] Текст ошибки: syntax error, unexpected '===' (T_IS_IDENTICAL) | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 118 
+===============-
+[2021-10-20 11:19:05] Текст ошибки: syntax error, unexpected 'endif' (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 114 
+===============-
+[2021-10-20 14:48:27] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-20 14:48:57] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-20 14:49:27] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-20 14:49:27] Текст ошибки: Контроллер app\controllers\ProducController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-20 15:22:05] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-20 15:22:36] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
 [2021-10-19 13:34:35] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\ProductController.php | Строка: 14 
 ===============-
