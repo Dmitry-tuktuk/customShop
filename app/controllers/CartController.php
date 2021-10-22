@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Cart;
 use RedBeanPHP\R;
 
 class CartController extends AppController {
@@ -11,8 +12,8 @@ class CartController extends AppController {
         $qty = !empty($_GET['qty']) ? (int)$_GET['qty'] : null ;
         $color = !empty($_GET['color']) ? (int)$_GET['color'] : null ;
         $size = !empty($_GET['size']) ? (int)$_GET['size'] : null ;
-        $mod_color = null;
-        $mod_size = null;
+        $modColor = null;
+        $modSize = null;
 
         if ($id){
             $product = R::findOne('product', 'id = ?', [$id]);
@@ -20,12 +21,18 @@ class CartController extends AppController {
                 return false;
             }
             if ($color){
-                $mod_color = R::getRow( 'SELECT  id, product_id, color, price FROM modification WHERE id = ? AND product_id = ?', [$color,$id]);
+                $modColor = R::getRow( 'SELECT  id, product_id, color, price FROM modification WHERE id = ? AND product_id = ?', [$color,$id]);
             }
             if ($size){
-                $mod_size = R::getRow( 'SELECT  id, product_id, size, price FROM modification WHERE id = ? AND product_id = ?', [$size,$id]);
+                $modSize = R::getRow( 'SELECT  id, product_id, size, price FROM modification WHERE id = ? AND product_id = ?', [$size,$id]);
             }
         }
-        die;
+
+        $cart = new Cart();
+        $cart->addToCart($product, $qty, $modColor, $modSize);
+        if ($this->isAjax()){
+            $this->loadView('cart_modal');
+        }
+        redirect();
     }
 }

@@ -291,3 +291,5 @@
 ===============-
 [2021-10-22 13:48:15] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Cart/add.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
 ===============-
+[2021-10-22 16:07:28] Текст ошибки: syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' | Файл: D:\Programms\OpenServer\domains\customShop\app\models\Cart.php | Строка: 16 
+===============-
