@@ -277,3 +277,17 @@
 ===============-
 [2021-10-19 13:45:37] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
+[2021-10-22 12:52:49] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Cart/add.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-10-22 12:53:41] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Cart/add.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-10-22 12:54:49] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Cart/add.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-10-22 13:14:37] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT color id = 1 AND product_id = 15 LIMIT 1   -- keep-cache' at line 1 | Файл: D:\Programms\OpenServer\domains\customShop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+===============-
+[2021-10-22 13:16:58] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT color id = 2 AND product_id = 15 LIMIT 1   -- keep-cache' at line 1 | Файл: D:\Programms\OpenServer\domains\customShop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+===============-
+[2021-10-22 13:42:25] Текст ошибки: syntax error, unexpected ')', expecting ']' | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CartController.php | Строка: 18 
+===============-
+[2021-10-22 13:48:15] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Cart/add.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-

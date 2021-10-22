@@ -1,3 +1,28 @@
+/* Cart */
+$('body').on('click', '.add-to-cart-link', function(e){
+    e.preventDefault();
+    var id = $(this).data('id'),
+        qty = $('.cart-plus-minus input').val() ? $('.cart-plus-minus input').val() : 1,
+        color = $('.pro-details-color select').val(),
+        size = $('.pro-details-size select').val();
+    $.ajax({
+        url: '/cart/add',
+        data: {id: id, qty: qty, color: color, size: size},
+        type: 'GET',
+        success: function(res){
+            showCart(res);
+        },
+        error: function(){
+            alert('Error. Reload page!');
+        }
+    });
+});
+
+function showCart(cart){
+    console.log(cart);
+}
+/* Cart */
+
 $('#currency').change(function () {
     window.location = 'currency/change?curr=' + $(this).val();
 })
