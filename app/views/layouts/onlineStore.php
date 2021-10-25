@@ -324,6 +324,7 @@
 <!-- OffCanvas Menu End -->
 
 <div class="content">
+    <?= debug($_SESSION)?>
     <?= $content?>
 </div>
 

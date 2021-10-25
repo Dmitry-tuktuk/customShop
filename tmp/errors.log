@@ -293,3 +293,17 @@
 ===============-
 [2021-10-22 16:07:28] Текст ошибки: syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' | Файл: D:\Programms\OpenServer\domains\customShop\app\models\Cart.php | Строка: 16 
 ===============-
+[2021-10-25 12:58:44] Текст ошибки: syntax error, unexpected ')' | Файл: D:\Programms\OpenServer\domains\customShop\app\models\Cart.php | Строка: 19 
+===============-
+[2021-10-25 13:57:32] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-25 14:19:00] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-25 14:19:31] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-25 14:37:34] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-25 14:38:04] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-25 14:38:34] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
