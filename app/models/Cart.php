@@ -45,7 +45,8 @@ class Cart extends AppModel {
                 'img' => $product->img,
             ];
         }
-        $_SESSION['cart']['qty'] = isset($_SESSION['cart']['qty']) ? $_SESSION['cart']['qty'] + $qty : $qty;
-        $_SESSION['cart']['sum'] = isset($_SESSION['cart']['sum']) ? $_SESSION['cart']['sum'] + $qty * ($price * $_SESSION['cart.currency']['value']) : $qty * ($price * $_SESSION['cart.currency']['value']);
+
+        $_SESSION['cart.qty'] = isset($_SESSION['cart.qty']) ? $_SESSION['cart.qty'] + $qty : $qty;
+        $_SESSION['cart.sum'] = isset($_SESSION['cart.sum']) ? $_SESSION['cart.sum'] + $qty * ($price * $_SESSION['cart.currency']['value']) : $qty * ($price * $_SESSION['cart.currency']['value']);
     }
 }

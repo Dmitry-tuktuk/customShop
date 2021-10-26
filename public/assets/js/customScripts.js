@@ -19,9 +19,13 @@ $('body').on('click', '.add-to-cart-link', function(e){
 });
 
 function showCart(cart){
-    console.log(cart);
+    if ($.trim(cart) == '<h3> Cart is empty....</h3>'){
+        $('#offcanvas-cart .foot .buttons a').css('display', 'none');
+    }
+    $('#offcanvas-cart .inner .body').html(cart);
+    $('#offcanvas-cart').modal();
 }
-/* Cart */
+/* End - cart */
 
 $('#currency').change(function () {
     window.location = 'currency/change?curr=' + $(this).val();

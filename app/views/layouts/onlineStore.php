@@ -184,47 +184,19 @@
             <span class="title">Cart</span>
             <button class="offcanvas-close">×</button>
         </div>
-        <div class="body customScroll">
-            <ul class="minicart-product-list">
-                <li>
-                    <a href="single-product.html" class="image"><img src="public/assets/images/product-image/1.jpg"
-                                                                     alt="Cart product Image"></a>
-                    <div class="content">
-                        <a href="single-product.html" class="title">Women's Elizabeth Coat</a>
-                        <span class="quantity-price">1 x <span class="amount">$18.86</span></span>
-                        <a href="#" class="remove">×</a>
-                    </div>
-                </li>
-                <li>
-                    <a href="single-product.html" class="image"><img src="public/assets/images/product-image/2.jpg"
-                                                                     alt="Cart product Image"></a>
-                    <div class="content">
-                        <a href="single-product.html" class="title">Long sleeve knee length</a>
-                        <span class="quantity-price">1 x <span class="amount">$43.28</span></span>
-                        <a href="#" class="remove">×</a>
-                    </div>
-                </li>
-                <li>
-                    <a href="single-product.html" class="image"><img src="public/assets/images/product-image/3.jpg"
-                                                                     alt="Cart product Image"></a>
-                    <div class="content">
-                        <a href="single-product.html" class="title">Cool Man Wearing Leather</a>
-                        <span class="quantity-price">1 x <span class="amount">$37.34</span></span>
-                        <a href="#" class="remove">×</a>
-                    </div>
-                </li>
-            </ul>
+        <div class="body">
+
         </div>
         <div class="foot">
             <div class="buttons mt-30px">
                 <a href="cart.html" class="btn btn-dark btn-hover-primary mb-30px">view cart</a>
-                <a href="checkout.html" class="btn btn-outline-dark current-btn">checkout</a>
+                <a href="checkout.html" class="btn btn-dark btn-hover-primary mb-30px">checkout</a>
+                <a type="button" class="btn btn-dark btn-outline-dark current-btn" onclick="clearCart">Clear Cart</a>
             </div>
         </div>
     </div>
 </div>
 <!-- OffCanvas Cart End -->
-
 <!-- OffCanvas Menu Start -->
 <div id="offcanvas-mobile-menu" class="offcanvas offcanvas-mobile-menu">
     <button class="offcanvas-close"></button>
@@ -324,7 +296,6 @@
 <!-- OffCanvas Menu End -->
 
 <div class="content">
-    <?= debug($_SESSION)?>
     <?= $content?>
 </div>
 
@@ -658,7 +629,6 @@
         course = '<?= $curr['value']?>',
         symbolLeft = '<?= $curr['symbol_left']?>',
         symbolRight = '<?= $curr['symbol_right']?>';
-        sale = '<?= round( 100 - ($product->price / ($product->old_price / 100))) ?>';
 </script>
 
 <!-- Vendor JS -->
