@@ -295,8 +295,8 @@
                                             <a href="compare.html" class="action compare" title="Compare"><i
                                                     class="pe-7s-refresh-2"></i></a>
                                         </div>
-                                        <button title="Add To Cart" data-id="<?=$productNew->id?>"class=" add-to-cart add-to-cart-link" href="/cart/add?id=<?=$productNew->id?>">Add
-                                            To Cart</button>
+                                        <a title="Add To Cart" data-id="<?=$productNew->id?>" class=" add-to-cart add-to-cart-link" href="/cart/add?id=<?=$productNew->id?>">Add
+                                            To Cart</a>
                                     </div>
                                     <div class="content">
                                             <span class="ratings">

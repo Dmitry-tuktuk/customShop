@@ -112,11 +112,21 @@
                             <i class="pe-7s-like"></i>
                         </a>
                         <!-- Single Wedge End -->
-                        <a href="#offcanvas-cart"
+<!--                        <a href="#offcanvas-cart"
+                        class="header-action-btn header-action-btn-cart offcanvas-toggle pr-0">
+                        <i class="pe-7s-shopbag"></i>
+                        <span class="header-action-num">01</span>
+                         <span class="cart-amount">€30.00</span>
+                        </a>-->
+<!--                    <a href="cart/show" onclick="getCart(); return false"-->
+                        <a href="#offcanvas-cart" onclick="getCart()"
                            class="header-action-btn header-action-btn-cart offcanvas-toggle pr-0">
                             <i class="pe-7s-shopbag"></i>
-                            <span class="header-action-num">01</span>
-                            <!-- <span class="cart-amount">€30.00</span> -->
+                            <?php if (!empty($_SESSION['cart'])): ?>
+                                <span class="header-action-num"><?= $_SESSION['cart.qty']?></span>
+                            <?php else: ?>
+                                <span>Empty cart</span>
+                            <?php endif; ?>
                         </a>
                         <a href="#offcanvas-mobile-menu"
                            class="header-action-btn header-action-btn-menu offcanvas-toggle d-lg-none">

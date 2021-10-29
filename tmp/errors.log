@@ -64,3 +64,135 @@
 ===============-
 [2021-10-26 14:33:05] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
+[2021-10-27 10:49:23] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 10:49:54] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 10:50:24] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 10:57:55] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 10:58:25] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 10:59:03] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 10:59:33] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:03:16] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:03:46] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:04:17] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:04:47] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:21:32] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Cart/show.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-10-27 11:21:38] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Cart/show.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-10-27 11:21:59] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Cart/show.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-10-27 11:22:10] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Cart/show.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-10-27 11:23:14] Текст ошибки: Метод app\controllers\CartController::indexAction не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 33 
+===============-
+[2021-10-27 11:23:27] Текст ошибки: Метод app\controllers\CartController::indexAction не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 33 
+===============-
+[2021-10-27 11:23:32] Текст ошибки: Метод app\controllers\CartController::indexAction не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 33 
+===============-
+[2021-10-27 11:23:53] Текст ошибки: Контроллер app\controllers\ShowController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-27 11:24:48] Текст ошибки: Контроллер app\controllers\ShowController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-27 11:25:02] Текст ошибки: Контроллер app\controllers\ShowController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-27 11:26:30] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:27:00] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:27:31] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:28:01] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:28:36] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:29:06] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:29:47] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:30:26] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:30:56] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:31:26] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:35:36] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:36:06] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:36:37] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:37:07] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:44:08] Текст ошибки: Контроллер app\controllers\OffcanvasCartController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-27 11:54:41] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-27 11:55:26] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 12:18:08] Текст ошибки: Контроллер app\controllers\OffcanvasCartController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-29 12:20:17] Текст ошибки: Контроллер app\controllers\OffcanvasCartController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-29 12:21:32] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 12:22:02] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 12:27:08] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 12:27:39] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 12:40:16] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 12:40:48] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 12:41:18] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 12:41:49] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 12:42:12] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 39 
+===============-
+[2021-10-29 12:42:34] Текст ошибки: Контроллер app\controllers\ShowController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-29 12:43:18] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 12:43:50] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 12:44:19] Текст ошибки: Контроллер app\controllers\ShowController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-29 12:44:25] Текст ошибки: Контроллер app\controllers\ShowController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-10-29 12:49:55] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 12:50:25] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 13:13:31] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 13:14:01] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 13:36:40] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 13:37:10] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 13:50:33] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 13:51:03] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 13:51:34] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 13:52:04] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 14:34:18] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-10-29 14:34:21] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
