@@ -196,3 +196,63 @@
 ===============-
 [2021-10-29 14:34:21] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
+[2021-11-01 15:07:08] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 15:07:38] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 15:08:19] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 15:24:57] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 15:25:27] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 15:25:58] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 15:26:28] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 15:45:39] Текст ошибки: Call to undefined method app\models\Cart::recalc() | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CurrencyController.php | Строка: 16 
+===============-
+[2021-11-01 15:46:34] Текст ошибки: Call to undefined method app\models\Cart::recalc() | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CurrencyController.php | Строка: 16 
+===============-
+[2021-11-01 15:47:57] Текст ошибки: Call to undefined method app\models\Cart::recalc() | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CurrencyController.php | Строка: 16 
+===============-
+[2021-11-01 15:48:35] Текст ошибки: Call to undefined method app\models\Cart::recalc() | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CurrencyController.php | Строка: 16 
+===============-
+[2021-11-01 15:57:50] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 15:58:23] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 15:59:35] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 16:00:08] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 16:49:36] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 17:00:13] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 17:00:46] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 17:06:03] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 17:06:36] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 17:07:06] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 17:07:36] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 17:08:06] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 17:08:48] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 17:10:44] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 17:11:15] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 17:11:45] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 17:12:22] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+===============-
+[2021-11-01 17:14:20] Текст ошибки: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected | Файл: D:\Programms\OpenServer\domains\customShop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+===============-
+[2021-11-01 18:28:35] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CurrencyController.php | Строка: 13 
+===============-

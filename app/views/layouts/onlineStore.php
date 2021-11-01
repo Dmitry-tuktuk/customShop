@@ -201,7 +201,7 @@
             <div class="buttons mt-30px">
                 <a href="cart.html" class="btn btn-dark btn-hover-primary mb-30px">view cart</a>
                 <a href="checkout.html" class="btn btn-dark btn-hover-primary mb-30px">checkout</a>
-                <a type="button" class="btn btn-dark btn-outline-dark current-btn" onclick="clearCart">Clear Cart</a>
+                <a href="#offcanvas-cart" class="btn btn-dark btn-outline-dark current-btn" onclick="clearCart()">Clear Cart</a>
             </div>
         </div>
     </div>

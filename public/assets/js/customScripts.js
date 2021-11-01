@@ -59,6 +59,19 @@ function getCart(){
     });
 }
 
+function clearCart(){
+    $.ajax({
+        url: 'cart/clear',
+        type: 'GET',
+        success: function(res){
+            showCart(res);
+        },
+        error: function(){
+            alert('Error clear cart, please reload page...');
+        }
+    });
+}
+
 /* End - cart */
 
 $('#currency').change(function () {
