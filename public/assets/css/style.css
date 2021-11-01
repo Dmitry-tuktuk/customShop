@@ -7435,6 +7435,9 @@ Pages - My Account
   font-weight: 600;
   margin: 0 0 18px 0;
 }
+.del-item{
+  cursor: pointer;
+}
 @media only screen and (max-width: 479px) {
   .modal-2 h2 {
     font-size: 24px;

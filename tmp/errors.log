@@ -1,279 +1,258 @@
-[2021-10-05 10:52:38] Текст ошибки: Контроллер app\controllers\admin\MainController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 40 
+[2021-10-26 13:35:07] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 11:00:45] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 43 
+[2021-10-26 13:35:37] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 11:18:49] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop.loc/app/views/Main/index.php | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\base\View.php | Строка: 40 
+[2021-10-26 13:35:44] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 13:18:07] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'customshop.loc.brands' doesn't exist | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+[2021-10-26 13:36:07] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 13:22:39] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2  -- keep-cache' at line 1 | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+[2021-10-26 13:36:14] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 13:32:34] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1761 
+[2021-10-26 13:36:26] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 13:37:10] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1743 
+[2021-10-26 13:36:37] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 13:37:23] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1743 
+[2021-10-26 13:36:44] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 13:37:29] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1743 
+[2021-10-26 13:36:59] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 13:37:31] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1743 
+[2021-10-26 13:37:07] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 13:37:37] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1743 
+[2021-10-26 13:37:14] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 13:37:54] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1743 
+[2021-10-26 13:37:33] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 13:51:49] Текст ошибки: syntax error, unexpected 'endif' (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 119 
+[2021-10-26 13:37:44] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 13:54:27] Текст ошибки: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 119 
+[2021-10-26 13:38:14] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 15:37:23] Текст ошибки: syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 22 
+[2021-10-26 13:38:22] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 15:37:28] Текст ошибки: syntax error, unexpected ')' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 22 
+[2021-10-26 13:38:45] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 15:39:35] Текст ошибки: syntax error, unexpected 'echo' (T_ECHO) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 25 
+[2021-10-26 13:38:52] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 15:44:45] Текст ошибки: syntax error, unexpected ';', expecting ')' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 23 
+[2021-10-26 13:39:15] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 16:09:58] Текст ошибки: syntax error, unexpected 'echo' (T_ECHO) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 27 
+[2021-10-26 13:39:22] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-06 16:13:56] Текст ошибки: syntax error, unexpected ')', expecting ';' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 23 
+[2021-10-26 14:26:12] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-07 09:54:44] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 43 
+[2021-10-26 14:26:42] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-07 10:41:31] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 43 
+[2021-10-26 14:27:12] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-07 10:44:09] Текст ошибки: syntax error, unexpected '?>' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1232 
+[2021-10-26 14:28:40] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-07 10:44:11] Текст ошибки: syntax error, unexpected '?>' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1232 
+[2021-10-26 14:29:10] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-07 10:44:29] Текст ошибки: syntax error, unexpected '?>' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 1232 
+[2021-10-26 14:29:41] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-07 10:53:35] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 43 
+[2021-10-26 14:30:11] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-07 10:58:14] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 43 
+[2021-10-26 14:31:04] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-07 11:23:22] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 617 
+[2021-10-26 14:31:34] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-07 11:23:38] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 617 
+[2021-10-26 14:32:05] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-07 11:23:40] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 617 
+[2021-10-26 14:32:10] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 10:30:32] Текст ошибки: Class 'app\controllers\Currency' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 13 
+[2021-10-26 14:32:35] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 10:30:42] Текст ошибки: Call to undefined method app\widgets\currency\Currency::getCurrensies() | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 14 
+[2021-10-26 14:32:40] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 12:42:24] Текст ошибки: Using $this when not in object context | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\widgets\currency\Currency.php | Строка: 44 
+[2021-10-26 14:33:05] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 12:45:08] Текст ошибки: Using $this when not in object context | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\widgets\currency\Currency.php | Строка: 45 
+[2021-10-27 10:49:23] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 12:46:14] Текст ошибки: Call to protected method app\widgets\currency\Currency::getHtml() from context 'shop\base\View' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\layouts\onlineStore.php | Строка: 150 
+[2021-10-27 10:49:54] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 12:46:48] Текст ошибки: Object of class app\widgets\currency\Currency could not be converted to string | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\layouts\onlineStore.php | Строка: 150 
+[2021-10-27 10:50:24] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 12:46:59] Текст ошибки: Object of class app\widgets\currency\Currency could not be converted to string | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\layouts\onlineStore.php | Строка: 150 
+[2021-10-27 10:57:55] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 12:48:54] Текст ошибки: Object of class app\widgets\currency\Currency could not be converted to string | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\layouts\onlineStore.php | Строка: 150 
+[2021-10-27 10:58:25] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 12:49:07] Текст ошибки: Object of class app\widgets\currency\Currency could not be converted to string | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\layouts\onlineStore.php | Строка: 150 
+[2021-10-27 10:59:03] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 13:12:00] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 31 
+[2021-10-27 10:59:33] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 13:14:09] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 31 
+[2021-10-27 11:03:16] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 13:14:19] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 31 
+[2021-10-27 11:03:46] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 13:14:25] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 31 
+[2021-10-27 11:04:17] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 13:14:34] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 31 
+[2021-10-27 11:04:47] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 13:14:42] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 31 
+[2021-10-27 11:21:32] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Cart/show.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
 ===============-
-[2021-10-08 13:14:48] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 31 
+[2021-10-27 11:21:38] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Cart/show.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
 ===============-
-[2021-10-08 13:25:54] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php | Строка: 12 
+[2021-10-27 11:21:59] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Cart/show.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
 ===============-
-[2021-10-08 13:26:03] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php | Строка: 12 
+[2021-10-27 11:22:10] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Cart/show.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
 ===============-
-[2021-10-08 13:26:51] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php | Строка: 12 
+[2021-10-27 11:23:14] Текст ошибки: Метод app\controllers\CartController::indexAction не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 33 
 ===============-
-[2021-10-08 13:26:56] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php | Строка: 12 
+[2021-10-27 11:23:27] Текст ошибки: Метод app\controllers\CartController::indexAction не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 33 
 ===============-
-[2021-10-08 13:28:25] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php | Строка: 14 
+[2021-10-27 11:23:32] Текст ошибки: Метод app\controllers\CartController::indexAction не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 33 
 ===============-
-[2021-10-08 13:36:18] Текст ошибки: Метод app\controllers\CurrencyController::changeAction не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 33 
+[2021-10-27 11:23:53] Текст ошибки: Контроллер app\controllers\ShowController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
 ===============-
-[2021-10-08 13:42:08] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 16 
+[2021-10-27 11:24:48] Текст ошибки: Контроллер app\controllers\ShowController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
 ===============-
-[2021-10-08 13:42:18] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 16 
+[2021-10-27 11:25:02] Текст ошибки: Контроллер app\controllers\ShowController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
 ===============-
-[2021-10-08 13:43:21] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 16 
+[2021-10-27 11:26:30] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 13:44:47] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\MainController.php | Строка: 16 
+[2021-10-27 11:27:00] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 13:47:39] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php | Строка: 11 
+[2021-10-27 11:27:31] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 13:54:42] Текст ошибки: Контроллер app\controllers\ChangeController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+[2021-10-27 11:28:01] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 13:54:52] Текст ошибки: Контроллер app\controllers\ChangeController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+[2021-10-27 11:28:36] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 13:54:56] Текст ошибки: Контроллер app\controllers\ChangeController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+[2021-10-27 11:29:06] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 13:55:01] Текст ошибки: Контроллер app\controllers\ChangeController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+[2021-10-27 11:29:47] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 13:55:05] Текст ошибки: Контроллер app\controllers\ChangeController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+[2021-10-27 11:30:26] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 13:55:08] Текст ошибки: Контроллер app\controllers\ChangeController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+[2021-10-27 11:30:56] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 14:06:53] Текст ошибки: Call to undefined method shop\Registry::getProperties1() | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php | Строка: 15 
+[2021-10-27 11:31:26] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 14:07:01] Текст ошибки: Too few arguments to function shop\Registry::getProperty(), 0 passed in D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php on line 15 and exactly 1 expected | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Registry.php | Строка: 15 
+[2021-10-27 11:35:36] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 14:07:03] Текст ошибки: Метод app\controllers\CurrencyController::indexAction не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 33 
+[2021-10-27 11:36:06] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 14:07:09] Текст ошибки: Too few arguments to function shop\Registry::getProperty(), 0 passed in D:\Programms\OpenServer\domains\customShop.loc\app\controllers\CurrencyController.php on line 15 and exactly 1 expected | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Registry.php | Строка: 15 
+[2021-10-27 11:36:37] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-08 14:08:29] Текст ошибки: Контроллер app\controllers\CurrencyController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+[2021-10-27 11:37:07] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-11 12:10:05] Текст ошибки: Call to undefined function app\widgets\menu\Menu() | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\layouts\onlineStore.php | Строка: 146 
+[2021-10-27 11:44:08] Текст ошибки: Контроллер app\controllers\OffcanvasCartController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
 ===============-
-[2021-10-11 13:19:49] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 29 
+[2021-10-27 11:54:41] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-11 15:16:04] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 29 
+[2021-10-27 11:55:26] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-11 16:03:47] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 27 
+[2021-10-29 12:18:08] Текст ошибки: Контроллер app\controllers\OffcanvasCartController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
 ===============-
-[2021-10-11 16:03:49] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\AppController.php | Строка: 27 
+[2021-10-29 12:20:17] Текст ошибки: Контроллер app\controllers\OffcanvasCartController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
 ===============-
-[2021-10-11 16:20:15] Текст ошибки: syntax error, unexpected '=', expecting ']' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\layouts\onlineStore.php | Строка: 148 
+[2021-10-29 12:21:32] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-12 11:56:42] Текст ошибки: syntax error, unexpected '*', expecting end of file | Файл: D:\Programms\OpenServer\domains\customShop.loc\public\menu\menu.php | Строка: 12 
+[2021-10-29 12:22:02] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-12 12:41:56] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+[2021-10-29 12:27:08] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-12 13:01:08] Текст ошибки: syntax error, unexpected '=', expecting ']' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Main\index.php | Строка: 97 
+[2021-10-29 12:27:39] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 09:47:07] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+[2021-10-29 12:40:16] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 09:50:53] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+[2021-10-29 12:40:48] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 09:55:20] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop.loc/app/views/Product/index.php | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\base\View.php | Строка: 38 
+[2021-10-29 12:41:18] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 09:55:45] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop.loc/app/views/Product/index.php | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\base\View.php | Строка: 38 
+[2021-10-29 12:41:49] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 09:55:50] Текст ошибки: Контроллер app\controllers\ProductCardController не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 36 
+[2021-10-29 12:42:12] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 39 
 ===============-
-[2021-10-13 09:58:19] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+[2021-10-29 12:42:34] Текст ошибки: Контроллер app\controllers\ShowController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
 ===============-
-[2021-10-13 10:04:47] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+[2021-10-29 12:43:18] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 10:04:56] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+[2021-10-29 12:43:50] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 10:05:22] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+[2021-10-29 12:44:19] Текст ошибки: Контроллер app\controllers\ShowController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
 ===============-
-[2021-10-13 10:06:23] Текст ошибки: Метод app\controllers\ProductController::vewAction не найден | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 33 
+[2021-10-29 12:44:25] Текст ошибки: Контроллер app\controllers\ShowController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
 ===============-
-[2021-10-13 10:06:53] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop.loc/app/views/Product/view.php | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\base\View.php | Строка: 38 
+[2021-10-29 12:49:55] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 10:07:13] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop.loc/app/views/Product/view.php | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\base\View.php | Строка: 38 
+[2021-10-29 12:50:25] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 10:14:43] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+[2021-10-29 13:13:31] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 10:36:50] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+[2021-10-29 13:14:01] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 10:36:58] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+[2021-10-29 13:36:40] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 10:37:16] Текст ошибки: Страница не найдена1 | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+[2021-10-29 13:37:10] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 10:37:25] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+[2021-10-29 13:50:33] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 10:37:33] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+[2021-10-29 13:51:03] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 10:37:44] Текст ошибки: syntax error, unexpected ')' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 12 
+[2021-10-29 13:51:34] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 10:38:05] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+[2021-10-29 13:52:04] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 10:38:10] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+[2021-10-29 14:34:18] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 10:38:20] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+[2021-10-29 14:34:21] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 10:38:27] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 13 
+[2021-11-01 15:07:08] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 10:40:40] Текст ошибки: syntax error, unexpected '/' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Product\view.php | Строка: 10 
+[2021-11-01 15:07:38] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 10:44:43] Текст ошибки: syntax error, unexpected 'endif' (T_ENDIF), expecting end of file | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Product\view.php | Строка: 597 
+[2021-11-01 15:08:19] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 11:26:45] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+[2021-11-01 15:24:57] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 13:10:02] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\views\Product\view.php | Строка: 598 
+[2021-11-01 15:25:27] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 13:12:08] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+[2021-11-01 15:25:58] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 13:12:16] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+[2021-11-01 15:26:28] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-13 13:40:19] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Router.php | Строка: 39 
+[2021-11-01 15:45:39] Текст ошибки: Call to undefined method app\models\Cart::recalc() | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CurrencyController.php | Строка: 16 
 ===============-
-[2021-10-13 16:22:10] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 24 
+[2021-11-01 15:46:34] Текст ошибки: Call to undefined method app\models\Cart::recalc() | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CurrencyController.php | Строка: 16 
 ===============-
-[2021-10-13 16:44:13] Текст ошибки: syntax error, unexpected ';', expecting ')' | Файл: D:\Programms\OpenServer\domains\customShop.loc\app\controllers\ProductController.php | Строка: 24 
+[2021-11-01 15:47:57] Текст ошибки: Call to undefined method app\models\Cart::recalc() | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CurrencyController.php | Строка: 16 
 ===============-
-[2021-10-14 09:30:01] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Db.php | Строка: 17 
+[2021-11-01 15:48:35] Текст ошибки: Call to undefined method app\models\Cart::recalc() | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CurrencyController.php | Строка: 16 
 ===============-
-[2021-10-14 09:30:07] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Db.php | Строка: 17 
+[2021-11-01 15:57:50] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-14 09:31:41] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop.loc\vendor\shop\core\Db.php | Строка: 17 
+[2021-11-01 15:58:23] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-14 12:53:00] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+[2021-11-01 15:59:35] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-14 15:16:53] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 389 
+[2021-11-01 16:00:08] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-14 15:19:22] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 384 
+[2021-11-01 16:49:36] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-14 15:19:37] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 384 
+[2021-11-01 17:00:13] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-14 16:18:24] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 39 
+[2021-11-01 17:00:46] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-14 16:18:24] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 39 
+[2021-11-01 17:06:03] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-14 16:18:24] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 39 
+[2021-11-01 17:06:36] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-14 16:18:24] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 39 
+[2021-11-01 17:07:06] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-14 16:18:36] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 39 
+[2021-11-01 17:07:36] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-14 16:39:31] Текст ошибки: syntax error, unexpected '?>
-', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 187 
+[2021-11-01 17:08:06] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-19 13:34:35] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\ProductController.php | Строка: 14 
+[2021-11-01 17:08:48] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-19 13:45:07] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+[2021-11-01 17:10:44] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-19 13:45:37] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+[2021-11-01 17:11:15] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-20 11:07:40] Текст ошибки: syntax error, unexpected 'if' (T_IF) | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 118 
+[2021-11-01 17:11:45] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-20 11:09:01] Текст ошибки: Call to undefined function null() | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 118 
+[2021-11-01 17:12:22] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
 ===============-
-[2021-10-20 11:09:53] Текст ошибки: syntax error, unexpected '=' | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 118 
+[2021-11-01 17:14:20] Текст ошибки: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected | Файл: D:\Programms\OpenServer\domains\customShop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
 ===============-
-[2021-10-20 11:10:02] Текст ошибки: syntax error, unexpected '===' (T_IS_IDENTICAL) | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 118 
-===============-
-[2021-10-20 11:19:05] Текст ошибки: syntax error, unexpected 'endif' (T_ENDIF) | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Product\view.php | Строка: 114 
-===============-
-[2021-10-20 14:48:27] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
-===============-
-[2021-10-20 14:48:57] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
-===============-
-[2021-10-20 14:49:27] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
-===============-
-[2021-10-20 14:49:27] Текст ошибки: Контроллер app\controllers\ProducController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
-===============-
-[2021-10-20 15:22:05] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
-===============-
-[2021-10-20 15:22:36] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
-===============-
-[2021-10-19 13:34:35] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\ProductController.php | Строка: 14 
-===============-
-[2021-10-19 13:45:07] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
-===============-
-[2021-10-19 13:45:37] Текст ошибки: Нет соединения с бд | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Db.php | Строка: 17 
+[2021-11-01 18:28:35] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CurrencyController.php | Строка: 13 
 ===============-

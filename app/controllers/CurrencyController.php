@@ -2,6 +2,8 @@
 
 namespace app\controllers;
 
+use app\models\Cart;
+use RedBeanPHP\R;
 use shop\App;
 
 class CurrencyController extends AppController{
@@ -9,12 +11,12 @@ class CurrencyController extends AppController{
     public function changeAction() {
         $currency = !empty($_GET['curr']) ? $_GET['curr'] : null;
         if ($currency) {
-            $curr = App::$app->getProperties();
+            $curr = R::findOne('currency', 'code = ?', [$currency]);
             if ($curr !== null){
                 setcookie('currency', $currency, time()+3600 * 24 * 7, '/');
+                Cart::recalc($curr);
             }
         }
         redirect();
-        //Дописать функционал пересчета корзины
     }
 }
