@@ -256,3 +256,9 @@
 ===============-
 [2021-11-01 18:28:35] Текст ошибки: Class 'R' not found | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CurrencyController.php | Строка: 13 
 ===============-
+[2021-11-02 11:10:32] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-11-02 11:10:33] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-11-02 11:25:27] Текст ошибки: Метод app\controllers\SearchController::indexAction не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 33 
+===============-
