@@ -245,12 +245,12 @@
                                         <a title="Add To Cart" data-id="<?=$product->id?>" class="add-to-cart add-to-cart-link" href="/cart/add?id=<?=$product->id?>">Add To Cart</a>
                                     </div>
                                     <div class="content">
-                                            <span class="ratings">
+<!--                                            <span class="ratings">
                                                 <span class="rating-wrap">
                                                     <span class="star" style="width: 100%"></span>
                                                 </span>
                                                 <span class="rating-num">( 5 Review )</span>
-                                            </span>
+                                            </span>-->
                                         <h5 class="title"><a href="/product/<?= $product->alias?>"><?=$product->title ?></a></h5>
                                         <span class="price">
                                     <span class="new"><?= $curr['symbol_left']?><?= round($product->price * $curr['value']) ?><?= $curr['symbol_right']?></span>
@@ -299,12 +299,12 @@
                                             To Cart</a>
                                     </div>
                                     <div class="content">
-                                            <span class="ratings">
+<!--                                            <span class="ratings">
                                                 <span class="rating-wrap">
                                                     <span class="star" style="width: 100%"></span>
                                                 </span>
                                                 <span class="rating-num">( 5 Review )</span>
-                                            </span>
+                                            </span>-->
                                         <h5 class="title"><a href="/product/<?= $productNew->alias?>"><?=$productNew->title ?></a></h5>
                                         <span class="price">
                                                 <span class="new"><?= $curr['symbol_left']?><?= round($productNew->price * $curr['value']) ?> <?= $curr['symbol_right']?></span>
@@ -350,12 +350,12 @@
                                             To Cart</a>
                                     </div>
                                     <div class="content">
-                                            <span class="ratings">
+<!--                                            <span class="ratings">
                                                 <span class="rating-wrap">
                                                     <span class="star" style="width: 100%"></span>
                                                 </span>
                                                 <span class="rating-num">( 5 Review )</span>
-                                            </span>
+                                            </span>-->
                                         <h5 class="title"><a href="/product/<?= $productBestseller->alias?>"><?=$productBestseller->title ?></a></h5>
                                         <span class="price">
                                             <span class="new"><?= $curr['symbol_left']?><?=round($productBestseller->price * $curr['value']) ?><?= $curr['symbol_right']?></span>
@@ -403,12 +403,12 @@
                                             To Cart</a>
                                     </div>
                                     <div class="content">
-                                            <span class="ratings">
+<!--                                            <span class="ratings">
                                                 <span class="rating-wrap">
                                                     <span class="star" style="width: 100%"></span>
                                                 </span>
                                                 <span class="rating-num">( 5 Review )</span>
-                                            </span>
+                                            </span>-->
                                         <h5 class="title"><a href="/product/<?= $productSale->alias?>"><?=$productSale->title ?></a></h5>
                                         <span class="price">
                                                 <span class="new"><?= $curr['symbol_left']?><?= round($productSale->price * $curr['value']) ?><?= $curr['symbol_right']?></span>

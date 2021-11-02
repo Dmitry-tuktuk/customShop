@@ -446,7 +446,7 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <h2>Search Your Product</h2>
-                    <form class="navbar-form position-relative" role="search" actiom="search" method="get" autocomplete="off">
+                    <form class="navbar-form position-relative" role="search" action="search" method="get" autocomplete="off">
                         <div class="form-group">
                             <input type="text" class="form-control typeahead" id="typeahead" name="s" placeholder="Search here...">
                         </div>
@@ -633,7 +633,7 @@
 
 <!-- Global Vendor, plugins JS -->
 
-<?= $curr = \shop\App::$app->getProperty('currency') ?>
+<?php $curr = \shop\App::$app->getProperty('currency') ?>
 <script>
     var path = '<?= PATH ?>',
         course = '<?= $curr['value']?>',

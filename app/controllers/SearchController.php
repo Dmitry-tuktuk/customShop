@@ -18,4 +18,14 @@ class SearchController extends AppController
         die;
     }
 
+    public function indexAction(){
+        $query = !empty(trim($_GET['s'])) ? trim($_GET['s']) : null;
+        if ($query){
+            $products = R::find('product', "title LIKE ?", ["%{$query}%"]);
+            $categories = R::find('category', 'WHERE parent_id = 0');
+        }
+        $this->setMeta('Search to: '. h($query));
+        $this->set(compact('products', 'query', 'categories'));
+    }
+
 }
