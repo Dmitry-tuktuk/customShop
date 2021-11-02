@@ -446,9 +446,9 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <h2>Search Your Product</h2>
-                    <form class="navbar-form position-relative" role="search">
+                    <form class="navbar-form position-relative" role="search" action="search" method="get" autocomplete="off">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search here...">
+                            <input type="text" class="form-control typeahead" id="typeahead" name="s" placeholder="Search here...">
                         </div>
                         <button type="submit" class="submit-btn"><i class="pe-7s-search"></i></button>
                     </form>
@@ -633,7 +633,7 @@
 
 <!-- Global Vendor, plugins JS -->
 
-<?= $curr = \shop\App::$app->getProperty('currency') ?>
+<?php $curr = \shop\App::$app->getProperty('currency') ?>
 <script>
     var path = '<?= PATH ?>',
         course = '<?= $curr['value']?>',
@@ -647,7 +647,7 @@
 <script src="public/assets/js/vendor/bootstrap.bundle.min.js"></script>
 <script src="public/assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
 <script src="public/assets/js/vendor/modernizr-3.11.2.min.js"></script>
-
+<script src="public/assets/js/typeahead.bundle.js"></script>
 <!--Plugins JS-->
 <script src="public/assets/js/plugins/swiper-bundle.min.js"></script>
 <script src="public/assets/js/plugins/jquery-ui.min.js"></script>

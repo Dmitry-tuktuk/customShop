@@ -36,9 +36,8 @@ class ProductController extends AppController {
         }
 
         //Доп. параметры товара
-        //Цвет
+        //Цвет, размер
         $mods = R::findAll('modification', 'product_id = ?', [$product->id]);
-        //Размер товара
 
         //Подключить шаринг товара
 
