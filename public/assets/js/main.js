@@ -104,7 +104,7 @@
         /*Add Toggle Button With Off Canvas Sub Menu*/
         $offCanvasNavSubMenu.parent().prepend('<span class="menu-expand"></span>');
 
-        /*Category Sub Menu Toggle*/
+        /*CategoryController Sub Menu Toggle*/
         $offCanvasNav.on("click", "li a, .menu-expand", function (e) {
             var $this = $(this);
             if ($this.attr("href") === "#" || $this.hasClass("menu-expand")) {
@@ -136,7 +136,7 @@
         /*Add Toggle Button With Off Canvas Sub Menu*/
         $offCanvasNavSubMenu.parent().prepend('<span class="offcanvas__user-expand"></span>');
 
-        /*Category Sub Menu Toggle*/
+        /*CategoryController Sub Menu Toggle*/
         $offCanvasNav.on('click', 'li a, .offcanvas__user-expand', function (e) {
             var $this = $(this);
             if ($this.attr('href') === '#' || $this.hasClass('offcanvas__user-expand')) {
@@ -177,7 +177,7 @@
     });
 
     /*---------------------
-        Category Slider
+        CategoryController Slider
      ---------------------- */
 
     var categorySlider = new Swiper('.testimonial-wrapper.swiper-container', {

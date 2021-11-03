@@ -290,3 +290,45 @@
 ===============-
 [2021-11-02 12:13:57] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 39 
 ===============-
+[2021-11-03 12:01:38] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Category/view.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-11-03 12:04:08] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Category/view.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-11-03 12:05:20] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Category/view.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-11-03 12:05:24] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Category/view.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-11-03 12:05:32] Текст ошибки: Class 'mysql_xdevapi\Exception' not found | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CategoryController.php | Строка: 14 
+===============-
+[2021-11-03 12:05:45] Текст ошибки: Class 'mysql_xdevapi\Exception' not found | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CategoryController.php | Строка: 14 
+===============-
+[2021-11-03 12:06:20] Текст ошибки: Class 'mysql_xdevapi\Exception' not found | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CategoryController.php | Строка: 14 
+===============-
+[2021-11-03 12:06:26] Текст ошибки: Метод app\controllers\CategoryController::indexAction не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 33 
+===============-
+[2021-11-03 12:06:31] Текст ошибки: Class 'mysql_xdevapi\Exception' not found | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CategoryController.php | Строка: 14 
+===============-
+[2021-11-03 12:08:11] Текст ошибки: Class 'mysql_xdevapi\Exception' not found | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CategoryController.php | Строка: 14 
+===============-
+[2021-11-03 12:08:12] Текст ошибки: Class 'mysql_xdevapi\Exception' not found | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CategoryController.php | Строка: 14 
+===============-
+[2021-11-03 12:08:19] Текст ошибки: Page category not found. | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CategoryController.php | Строка: 14 
+===============-
+[2021-11-03 12:08:31] Текст ошибки: Class 'mysql_xdevapi\Exception' not found | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CategoryController.php | Строка: 14 
+===============-
+[2021-11-03 12:13:52] Текст ошибки: Page category not found. | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CategoryController.php | Строка: 15 
+===============-
+[2021-11-03 12:19:47] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Category/view.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-11-03 12:20:49] Текст ошибки: Page category not found. | Файл: D:\Programms\OpenServer\domains\customShop\app\controllers\CategoryController.php | Строка: 15 
+===============-
+[2021-11-03 12:27:34] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Category/view.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-11-03 12:27:48] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/Category/view.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-11-03 12:35:46] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'where clause' | Файл: D:\Programms\OpenServer\domains\customShop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+===============-
+[2021-11-03 12:53:15] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Category\view.php | Строка: 195 
+===============-
+[2021-11-03 12:53:17] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Category\view.php | Строка: 195 
+===============-

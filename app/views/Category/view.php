@@ -7,7 +7,7 @@
                 <!-- breadcrumb-list start -->
                 <ul class="breadcrumb-list">
                     <li class="breadcrumb-item"><a href=<?= PATH ?>>Home</a></li>
-                    <li class="breadcrumb-item active">Search: <?= h($query)?></li>
+                    <li class="breadcrumb-item active">Category</li>
                 </ul>
                 <!-- breadcrumb-list end -->
             </div>
@@ -64,7 +64,7 @@
                                 <div class="tab-pane fade show active" id="shop-grid">
                                     <div class="row mb-n-30px">
                                         <?php if (!empty($products)): ?>
-                                        <?php $curr = \shop\App::$app->getProperty('currency'); ?>
+                                            <?php $curr = \shop\App::$app->getProperty('currency'); ?>
                                             <?php foreach ($products as $product): ?>
                                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 mb-30px"
                                                      data-aos="fade-up" data-aos-delay="200">
@@ -91,7 +91,7 @@
                                                 </span>
                                                                 <?php endif ?>
                                             </span>
-                                                        </span>
+                                                            </span>
                                                             <div class="actions">
                                                                 <a href="wishlist.html" class="action wishlist"
                                                                    title="Wishlist"><i class="pe-7s-like"></i></a>
@@ -99,7 +99,7 @@
                                                                    data-link-action="quickview" title="Quick view"
                                                                    data-bs-toggle="modal"
                                                                    data-bs-target="#exampleModal"><i
-                                                                            class="pe-7s-search"></i></a>
+                                                                        class="pe-7s-search"></i></a>
                                                                 <a href="compare.html" class="action compare"
                                                                    title="Compare"><i class="pe-7s-refresh-2"></i></a>
                                                             </div>
@@ -122,6 +122,8 @@
                                                     </div>
                                                 </div>
                                             <?php endforeach; ?>
+                                        <?php else:?>
+                                            <h3>Products not founds</h3>
                                         <?php endif; ?>
                                     </div>
                                 </div>
@@ -180,10 +182,10 @@
                                                                        data-link-action="quickview" title="Quick view"
                                                                        data-bs-toggle="modal"
                                                                        data-bs-target="#exampleModal"><i
-                                                                                class="pe-7s-search"></i></a>
+                                                                            class="pe-7s-search"></i></a>
                                                                     <a href="compare.html" class="action compare"
                                                                        title="Compare"><i
-                                                                                class="pe-7s-refresh-2"></i></a>
+                                                                            class="pe-7s-refresh-2"></i></a>
                                                                 </div>
                                                                 <a title="Add To Cart" data-id="<?=$product->id?>" class=" add-to-cart add-to-cart-link" href="/cart/add?id=<?=$product->id?>">Add
                                                                     To Cart</a>
