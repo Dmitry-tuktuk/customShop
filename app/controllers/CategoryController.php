@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Breadcrumbs;
 use app\models\Category;
 use mysql_xdevapi\Exception;
 use RedBeanPHP\R;
@@ -16,7 +17,7 @@ class CategoryController extends AppController {
         }
 
         //breadcrumbs
-        $breadcrumbs = '';
+        $breadcrumbs = Breadcrumbs::getBreadcrumbs($category->id);
 
         //categories
         $cat_model = new Category();
@@ -25,6 +26,6 @@ class CategoryController extends AppController {
         $categories = R::find('category', "id IN ($ids)");
         $products = R::find('product', "category_id IN ($ids)");
         $this->setMeta($category->title, $category->description, $category->keyworlds);
-        $this->set(compact('products', 'breadcrumbs', 'categories'));
+        $this->set(compact('products', 'breadcrumbs', 'categories', 'category'));
     }
 }

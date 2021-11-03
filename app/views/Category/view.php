@@ -3,11 +3,10 @@
     <div class="container">
         <div class="row align-items-center justify-content-center">
             <div class="col-12 text-center">
-                <h2 class="breadcrumb-title">Shop</h2>
+                <h2 class="breadcrumb-title"><?=$category['title']?></h2>
                 <!-- breadcrumb-list start -->
                 <ul class="breadcrumb-list">
-                    <li class="breadcrumb-item"><a href=<?= PATH ?>>Home</a></li>
-                    <li class="breadcrumb-item active">Category</li>
+                    <?= $breadcrumbs ?>
                 </ul>
                 <!-- breadcrumb-list end -->
             </div>
