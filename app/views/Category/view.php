@@ -3,11 +3,10 @@
     <div class="container">
         <div class="row align-items-center justify-content-center">
             <div class="col-12 text-center">
-                <h2 class="breadcrumb-title">Shop</h2>
+                <h2 class="breadcrumb-title"><?=$category['title']?></h2>
                 <!-- breadcrumb-list start -->
                 <ul class="breadcrumb-list">
-                    <li class="breadcrumb-item"><a href=<?= PATH ?>>Home</a></li>
-                    <li class="breadcrumb-item active">Category</li>
+                    <?= $breadcrumbs ?>
                 </ul>
                 <!-- breadcrumb-list end -->
             </div>
@@ -203,10 +202,16 @@
                     <!-- Tab Content Area End -->
 
                     <!--  Pagination Area Start -->
-                    <div class="load-more-items text-center mb-md-60px mb-lm-60px mt-30px0px" data-aos="fade-up">
-                        <a href="#" class="btn btn-lg btn-primary btn-hover-dark m-auto"> Load More <i
-                                class="fa fa-refresh ml-15px" aria-hidden="true"></i></a>
+                    <p style="padding-top: 30px; text-align: right;">(<?=count($products);?> товар(ов) из <?= $total ?>)</p>
+                    <div class="text-center">
+                        <?php if ($pagination->countPages > 1): ?>
+                            <?= $pagination; ?>
+                        <?php endif; ?>
                     </div>
+<!--                    <div class="load-more-items text-center mb-md-60px mb-lm-60px mt-30px0px" data-aos="fade-up">-->
+<!--                        <a href="#" class="btn btn-lg btn-primary btn-hover-dark m-auto"> Load More <i-->
+<!--                                class="fa fa-refresh ml-15px" aria-hidden="true"></i></a>-->
+<!--                    </div>-->
                     <!--  Pagination Area End -->
                 </div>
                 <!-- Shop Bottom Area End -->

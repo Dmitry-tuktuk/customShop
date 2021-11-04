@@ -332,3 +332,11 @@
 ===============-
 [2021-11-03 12:53:17] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file | Файл: D:\Programms\OpenServer\domains\customShop\app\views\Category\view.php | Строка: 195 
 ===============-
+[2021-11-04 16:54:17] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'customshop.loc.prod' doesn't exist | Файл: D:\Programms\OpenServer\domains\customShop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+===============-
+[2021-11-04 16:59:49] Текст ошибки: Страница не найдена | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 39 
+===============-
+[2021-11-04 17:00:56] Текст ошибки: Контроллер app\controllers\ProductsController не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 36 
+===============-
+[2021-11-04 18:23:14] Текст ошибки: Метод app\controllers\CategoryController::indexAction не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 33 
+===============-
