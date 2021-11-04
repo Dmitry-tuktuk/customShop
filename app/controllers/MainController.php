@@ -11,6 +11,8 @@ class MainController extends AppController {
     public function indexAction(){
 
         //Вывести количество товара в категории?
+        $menProducts = R::count('product', 'category_id = 1');
+        $womenProducts = R::count('product', 'category_id = 2');
 
         /*Запрос выборки нужных данных из базы*/
         $categories = R::find('category', 'LIMIT 2');
@@ -22,7 +24,7 @@ class MainController extends AppController {
         $productsNew = R::findAll('product', "label_id = '3' AND status = '1' LIMIT 8");
 
         /*Передача данных в вид*/
-        $this->set(compact('categories','products', 'productsSale', 'productsBestseller', 'productsNew'));
+        $this->set(compact('categories','products', 'productsSale', 'productsBestseller', 'productsNew', 'menProducts', 'womenProducts'));
 
     }
 }

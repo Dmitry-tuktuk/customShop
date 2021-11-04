@@ -92,11 +92,11 @@
     <div class="container">
         <div class="row">
             <div class="single-col ">
-                <a href="shop-left-sidebar.html" class="single-banner">
+                <a href="/category/<?= mb_strtolower($categories[1]->title) ?>" class="single-banner">
                     <img src="public/assets/images/banner/<?=$categories[1]->img ?>" alt="">
                     <div class="item-disc">
                         <span class="item-title"><?=$categories[1]->title ?></span>
-                        <span class="item-amount"><?=$categories[1]->description ?></span>
+                        <span class="item-amount"><?=$menProducts ?> items</span>
                     </div>
                 </a>
             </div>
@@ -110,11 +110,11 @@
                 </div>
             </div>
             <div class="single-col ">
-                <a href="shop-left-sidebar.html" class="single-banner">
+                <a href="/category/<?= mb_strtolower($categories[2]->title) ?>" class="single-banner">
                     <img src="public/assets/images/banner/<?=$categories[2]->img ?>" alt="">
                     <div class="item-disc">
                         <span class="item-title"><?=$categories[2]->title ?></span>
-                        <span class="item-amount"><?=$categories[2]->description ?></span>
+                        <span class="item-amount"><?= $womenProducts ?> items</span>
                     </div>
                 </a>
             </div>
