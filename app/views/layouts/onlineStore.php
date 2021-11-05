@@ -100,8 +100,16 @@
                         <select id="currency"  class="select-css">
                             <?php new \app\widgets\currency\Currency(); ?>
                         </select>
-                        <a href="login.html" class="header-action-btn login-btn" data-bs-toggle="modal"
-                           data-bs-target="#loginActive">Sign In</a>
+                        <ul class="dropdown">
+                            <?php if (!empty($_SESSION['user'])):?>
+                                <li><a href="#" class="header-action-btn login-btn dropdown-item" data-bs-toggle="modal"
+                                   data-bs-target="#loginActive">Hello <?= $_SESSION['user']['name']?></a></li>
+                                <li><a href="user/logout" class="dropdown-item">Logout</a></li>
+                            <?php else:?>
+                                <li><a href="login.html" class="header-action-btn login-btn dropdown-item" data-bs-toggle="modal"
+                                   data-bs-target="#loginActive">Sign In</a></li>
+                            <?php endif ?>
+                        </ul>
                         <!-- Single Wedge Start -->
                         <a href="#" class="header-action-btn" data-bs-toggle="modal" data-bs-target="#searchActive">
                             <i class="pe-7s-search"></i>

@@ -340,3 +340,5 @@
 ===============-
 [2021-11-04 18:23:14] Текст ошибки: Метод app\controllers\CategoryController::indexAction не найден | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\Router.php | Строка: 33 
 ===============-
+[2021-11-05 17:06:49] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/User/signup.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
