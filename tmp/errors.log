@@ -342,3 +342,17 @@
 ===============-
 [2021-11-05 17:06:49] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/User/signup.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
 ===============-
+[2021-11-08 10:19:16] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/User/signup.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-11-08 10:49:19] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/User/signup.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-11-08 18:35:44] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/User/signup.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-11-09 10:33:24] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/User/signup.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-11-09 12:20:02] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/User/signup.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-11-09 12:35:40] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/User/signup.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-11-09 12:40:22] Текст ошибки: Fail to load language file 'D:\Programms\OpenServer\domains\customShop/publicvalidator/lang/ru.php' | Файл: D:\Programms\OpenServer\domains\customShop\vendor\vlucas\valitron\src\Valitron\Validator.php | Строка: 118 
+===============-
