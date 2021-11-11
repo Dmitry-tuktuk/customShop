@@ -13,6 +13,7 @@ class UserController extends AppController {
             $user->load($data);
             if (!$user->validate($data) || !$user->checkUnique()){
                 $user->getErrors();
+                $_SESSION['form-data'] = $data;
             } else {
                 $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
                 if ($user->save('user')){

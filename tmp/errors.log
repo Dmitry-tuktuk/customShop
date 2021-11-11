@@ -398,3 +398,9 @@
 ===============-
 [2021-11-09 14:39:49] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin' for key 'login' | Файл: D:\Programms\OpenServer\domains\customShop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
 ===============-
+[2021-11-09 16:32:36] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/User/signup.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-11-11 11:44:52] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/User/signup.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
+[2021-11-11 11:44:55] Текст ошибки: Не найден вид D:\Programms\OpenServer\domains\customShop/app/views/User/signup.php | Файл: D:\Programms\OpenServer\domains\customShop\vendor\shop\core\base\View.php | Строка: 38 
+===============-
