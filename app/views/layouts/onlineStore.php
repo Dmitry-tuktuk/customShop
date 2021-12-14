@@ -100,8 +100,17 @@
                         <select id="currency"  class="select-css">
                             <?php new \app\widgets\currency\Currency(); ?>
                         </select>
-                        <a href="login.html" class="header-action-btn login-btn" data-bs-toggle="modal"
-                           data-bs-target="#loginActive">Sign In</a>
+                        <ul>
+                            <?php if (!empty($_SESSION['user'])):?>
+                                <li><a href="#" class="header-action-btn login-btn dropdown-item" data-bs-toggle="modal"
+                                   data-bs-target="#loginActive"><?= $_SESSION['user']['name']?></a></li>
+                                <li><a href="user/logout" class="dropdown-item">Logout</a></li>
+                            <?php else:?>
+                                <li><a href="user/login" class="header-action-btn login-btn dropdown-item" data-bs-toggle="modal"
+                                   data-bs-target="#loginActive">Sign In</a></li>
+                            <?php endif ?>
+                        </ul>
+
                         <!-- Single Wedge Start -->
                         <a href="#" class="header-action-btn" data-bs-toggle="modal" data-bs-target="#searchActive">
                             <i class="pe-7s-search"></i>
@@ -306,7 +315,25 @@
 <!-- OffCanvas Menu End -->
 
 <div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <?php if (isset($_SESSION['error'])): ?>
+                    <div class="alert alert-danger">
+                        <?php echo $_SESSION['error']; unset ($_SESSION['error']); ?>
+                    </div>
+                <?php endif; ?>
+                <?php if (isset($_SESSION['success'])): ?>
+                    <div class="alert alert-success">
+                        <?php echo $_SESSION['success']; unset ($_SESSION['success']); ?>
+                    </div>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
+
     <?= $content?>
+
 </div>
 
 <!-- Footer Area Start -->
@@ -469,9 +496,9 @@
                     <div class="login-content">
                         <h2>Log in</h2>
                         <h3>Log in your account</h3>
-                        <form action="#">
-                            <input type="text" placeholder="Username">
-                            <input type="password" placeholder="Password">
+                        <form action="user/login" method="post">
+                            <input type="text" name="login" placeholder="Login" required/>
+                            <input type="password" name="password" placeholder="Password" required/>
                             <div class="remember-forget-wrap">
                                 <div class="remember-wrap">
                                     <input type="checkbox">
@@ -482,9 +509,9 @@
                                     <a href="#">Forgot your password?</a>
                                 </div>
                             </div>
-                            <button type="button">Log in</button>
+                            <button type="submit"><span>Login</span></button>
                             <div class="member-register">
-                                <p> Not a member? <a href="login.html"> Register now</a></p>
+                                <p> Not a member? <a href="user/login"> Register now</a></p>
                             </div>
                         </form>
                     </div>

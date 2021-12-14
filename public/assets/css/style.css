@@ -647,6 +647,66 @@ input {
   color: #000;
 }
 
+/**/
+nav {
+  display: table;
+  margin: 0 auto;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topmenu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.topmenu > li {
+  width: 25%;
+  float: left;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+.topmenu > li > a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  color: #404040;
+  padding: 15px 30px;
+}
+.topmenu li a:hover { color: #D5B45B; }
+.submenu-link:after {
+  content: "\f107";
+  font-family: "FontAwesome";
+  color: inherit;
+  margin-left: 10px;
+}
+.submenu {
+  background: #273037;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 5;
+  width: 180px;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  transition: .5s ease-in-out;
+}
+.submenu a {
+  color: white;
+  text-align: left;
+  padding: 12px 15px;
+  font-size: 13px;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.submenu li:last-child a { border-bottom: none; }
+.topmenu > li:hover .submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+/**/
 /* mobile search */
 .action-form {
   position: relative;
@@ -6893,7 +6953,6 @@ Pages - My Account
   color: #3c3c3c;
   content: "//";
 }
-
 .page-pagination li {
   display: inline-block;
 }
