@@ -34,9 +34,9 @@
                         <div id="lg1" class="tab-pane active">
                             <div class="login-form-container">
                                 <div class="login-register-form">
-                                    <form action="#" method="post">
-                                        <input type="text" name="user-name" placeholder="Username" required/>
-                                        <input type="password" name="user-password" placeholder="Password" required/>
+                                    <form action="user/login" method="post">
+                                        <input type="text" name="login" placeholder="Login" required/>
+                                        <input type="password" name="password" placeholder="Password" required/>
                                         <div class="button-box">
                                             <div class="login-toggle-btn">
                                                 <input type="checkbox" />
@@ -53,11 +53,11 @@
                             <div class="login-form-container">
                                 <div class="login-register-form">
                                     <form action="user/signup" method="post">
-                                        <input class="form-control" id="validationDefault01" type="text" name="login" placeholder="Login" value="<?=isset($_SESSION['form-data']['login']) ? h($_SESSION['form-data']['login']) : ''?>" required/>
+                                        <input type="text" name="login" placeholder="Login" value="<?=isset($_SESSION['form-data']['login']) ? h($_SESSION['form-data']['login']) : ''?>" required/>
                                         <input type="password" name="password" placeholder="Password" required/>
                                         <input name="email" placeholder="Email" type="email" value="<?=isset($_SESSION['form-data']['email']) ? h($_SESSION['form-data']['email']) : ''?>" required/>
-                                        <input class="form-control" id="validationDefault04" type="text" name="name" placeholder="Username" value="<?=isset($_SESSION['form-data']['name']) ? h($_SESSION['form-data']['name']) : ''?>" required/>
-                                        <input class="form-control" id="validationDefault05" type="text" name="address" placeholder="Address" value="<?=isset($_SESSION['form-data']['address']) ? h($_SESSION['form-data']['address']) : ''?>" required/>
+                                        <input type="text" name="name" placeholder="Username" value="<?=isset($_SESSION['form-data']['name']) ? h($_SESSION['form-data']['name']) : ''?>" required/>
+                                        <input type="text" name="address" placeholder="Address" value="<?=isset($_SESSION['form-data']['address']) ? h($_SESSION['form-data']['address']) : ''?>" required/>
                                         <div class="button-box">
                                             <button type="submit"><span>Register</span></button>
                                         </div>
